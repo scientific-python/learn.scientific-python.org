@@ -1,0 +1,50 @@
+baseURL: "https://learn.scientific-python.org/"
+title: "Learn Scientific Python"
+theme: scientific-python-hugo-theme
+relativeURLs: true
+disableKinds: ["term", "taxonomy"]
+
+markup:
+  highlight:
+    noClasses: false
+
+params:
+  description: "Documentation for the Scientific Python community."
+  images:
+  - /images/logo.svg
+  navbarlogo:
+    image: logo.svg
+    text: Learn Scientific Python
+    link: /
+  hero:
+    title: Learn Scientific Python
+    image: logo.svg
+  navbar:
+   - title: Users
+     url: /users/
+   - title: Contributors
+     url: /contributors/
+   - title: Maintainers
+     url: /maintainers/
+   - title: Founders
+     url: /founders/
+  footer:
+    logo: logo.svg
+    socialmediatitle: ""
+    socialmedia:
+      - link: https://scientific-python.org/
+        icon: scientific-python
+      - link: https://discuss.scientific-python.org/
+        icon: discourse
+      - link: https://github.com/scientific-python/learn.scientific-python.org
+        icon: github
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: Code of Conduct
+            link: https://scientific-python.org/code_of_conduct/
+      column2:
+        links:
+      column3:
+        links:
