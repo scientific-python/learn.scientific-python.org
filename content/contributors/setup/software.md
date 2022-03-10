@@ -1,8 +1,10 @@
 ---
-title: "Contributors"
+title: "Software installation"
 draft: false
+shortcutDepth: 1
 ---
 
 {{< notice warning >}}
 This is a draft document.
 {{< /notice >}}
+
