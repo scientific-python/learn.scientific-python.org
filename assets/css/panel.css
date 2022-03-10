@@ -7,6 +7,19 @@
     flex-direction: column;
 }
 
+.panel-title {
+    text-align: center !important;
+    font-size: 3em;
+}
+
+.panel-subtitle {
+    text-align: center !important;
+    color: var(--colorSecondaryDark);
+    margin: 0 0 0 0;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
 .panel-box-container {
     display: flex;
     flex-wrap: wrap;
@@ -14,17 +27,11 @@
 }
 
 .panel-box-content {
-    height: 200px;
+    height: 140px;
     min-width: 275px;
     width: 335px;
     margin: 25px auto;
     border-radius: 3px;
-}
-
-.panel-box-title {
-    margin: 15px;
-    font-size: 16px;
-    text-transform: uppercase;
 }
 
 .panel-box-text > a {
@@ -36,6 +43,7 @@
     font-size: 14px;
     height: 4em;
     overflow: hidden;
+    padding-top: 10px;
 }
 
 .panel-box-text:after {
@@ -50,6 +58,7 @@
 
 .panel-box-action {
     text-align: center;
+    font-weight: bold;
 }
 
 

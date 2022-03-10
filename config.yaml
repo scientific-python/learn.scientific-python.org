@@ -20,26 +20,25 @@ params:
     title: Learn Scientific Python
     image: logo.svg
   navbar:
-   - title: Users
+   - title: User Guide
      url: /users/
-   - title: Contributors
+   - title: Contributor Guide
      url: /contributors/
-   - title: Maintainers
+   - title: Maintainer Guide
      url: /maintainers/
   panel:
+    title: The official documentation
+    subtitle: for the community, by the community
     tiles:
-    - title: For Users
-      text: Make the most of the Scientific Python ecosystem
+    - buttonText: User Guide
       url: /users/
-      buttonText: Users
-    - title: For Contributors
-      text: How-tos and best-practices for contributing to the ecosystem
+      text: Learn how to make the most of the Scientific Python ecosystem.
+    - buttonText: Contributor Guide
       url: /contributors/
-      buttonText: Contributors
-    - title: For Maintainers
-      text: Building, coordinating, and sustaining healthy communities
+      text: Learn best-practices for contributing to Scientific Python.
+    - buttonText: Maintainer Guide
       url: /maintainers/
-      buttonText: Maintainers
+      text: Learn how to build, coordinate, and sustain a healthy project.
   footer:
     logo: logo.svg
     socialmediatitle: ""
