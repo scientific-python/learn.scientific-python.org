@@ -26,8 +26,20 @@ params:
      url: /contributors/
    - title: Maintainers
      url: /maintainers/
-   - title: Founders
-     url: /founders/
+  panel:
+    tiles:
+    - title: For Users
+      text: Make the most of the Scientific Python ecosystem
+      url: /users/
+      buttonText: Users
+    - title: For Contributors
+      text: How-tos and best-practices for contributing to the ecosystem
+      url: /contributors/
+      buttonText: Contributors
+    - title: For Maintainers
+      text: Building, coordinating, and sustaining healthy communities
+      url: /maintainers/
+      buttonText: Maintainers
   footer:
     logo: logo.svg
     socialmediatitle: ""
