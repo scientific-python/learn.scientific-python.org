@@ -20,6 +20,14 @@
     padding-bottom: 20px;
 }
 
+.panel-divider {
+    height: 3px;
+    border-radius: 50px;
+    background: var(--colorPrimaryLight);
+    width: 60px;
+    margin: 0 auto; 
+}
+
 .panel-box-container {
     display: flex;
     flex-wrap: wrap;
