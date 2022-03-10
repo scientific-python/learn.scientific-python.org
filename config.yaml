@@ -27,8 +27,8 @@ params:
    - title: Maintainer Guide
      url: /maintainers/
   panel:
-    title: The official documentation
-    subtitle: for the community, by the community
+    title: The definitive documentation
+    subtitle: by the community, for the community
     tiles:
     - buttonText: User Guide
       url: /users/
