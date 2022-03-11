@@ -20,12 +20,16 @@ params:
     title: Learn Scientific Python
     image: logo.svg
   navbar:
+   - title: Home
+     url: https://scientific-python.org/
    - title: User Guide
      url: /users/
    - title: Contributor Guide
      url: /contributors/
    - title: Maintainer Guide
      url: /maintainers/
+   - title: Community Blog
+     url: https://blog.scientific-python.org//
   panel:
     title: The definitive documentation
     subtitle: by the community, for the community
