@@ -29,7 +29,7 @@ params:
    - title: Maintainer Guide
      url: /maintainers/
    - title: Community Blog
-     url: https://blog.scientific-python.org//
+     url: https://blog.scientific-python.org/
   panel:
     title: The definitive documentation
     subtitle: by the community, for the community
@@ -47,12 +47,25 @@ params:
     logo: logo.svg
     socialmediatitle: ""
     socialmedia:
-      - link: https://scientific-python.org/
+      - link: https://scientific-python.org
         icon: scientific-python
-      - link: https://discuss.scientific-python.org/
-        icon: discourse
       - link: https://github.com/scientific-python/learn.scientific-python.org
         icon: github
+      - link: https://www.youtube.com/channel/UC2wKi87Wmy9C1OQMyD9fGxA
+        icon: youtube
+      - link: https://twitter.com/scientific_py
+        icon: twitter
+      - link: https://facebook.com/scientific.python
+        icon: facebook
+      - link: https://www.instagram.com/scientific.python/
+        icon: instagram
+      - link: https://www.tiktok.com/@scientific.python
+        icon: tiktok
+      - link: https://blog.scientific-python.org/atom.xml
+        icon: rss-feed
+      - link: https://discuss.scientific-python.org
+        icon: discourse
+
     quicklinks:
       column1:
         title: ""
