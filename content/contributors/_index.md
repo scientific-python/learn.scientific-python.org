@@ -10,15 +10,15 @@ This is a draft document.
 
 The scientific Python ecosystem welcomes your expertise and enthusiasm!
 
-{{< youtube_page page="why-contribute" levelOffset=3 >}}
+{{< youtube page="why-contribute" levelOffset=3 >}}{{< /youtube >}}
 
-{{< youtube_page page="ways-to-contribute" levelOffset=3 >}}
+{{< youtube page="ways-to-contribute" levelOffset=3 >}}{{< /youtube >}}
 
-{{< youtube_page page="getting-started" levelOffset=3 >}}
+{{< youtube page="getting-started" levelOffset=3 >}}{{< /youtube >}}
 
-{{< youtube_page page="choosing-a-project" levelOffset=3 >}}
+{{< youtube page="choosing-a-project" levelOffset=3 >}}{{< /youtube >}}
 
-{{< youtube_page page="first-contribution" levelOffset=3 >}}
+{{< youtube page="first-contribution" levelOffset=3 >}}{{< /youtube >}}
 
 # Getting set up
 
