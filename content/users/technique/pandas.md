@@ -1,6 +1,5 @@
 ---
 title: "Pandas"
-draft: false
 shortcutDepth: 1
 ---
 

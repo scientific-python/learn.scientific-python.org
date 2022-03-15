@@ -1,6 +1,5 @@
 ---
 title: "Matplotlib"
-draft: false
 shortcutDepth: 1
 ---
 

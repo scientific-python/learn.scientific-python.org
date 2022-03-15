@@ -1,6 +1,5 @@
 ---
 title: "IPython"
-draft: false
 shortcutDepth: 1
 ---
 
