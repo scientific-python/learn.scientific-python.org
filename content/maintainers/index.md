@@ -1,6 +1,5 @@
 ---
 title: "Maintainers"
-draft: false
 ---
 
 {{< notice warning >}}

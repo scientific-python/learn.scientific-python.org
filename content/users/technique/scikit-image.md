@@ -1,6 +1,5 @@
 ---
 title: "scikit-image"
-draft: false
 shortcutDepth: 1
 ---
 

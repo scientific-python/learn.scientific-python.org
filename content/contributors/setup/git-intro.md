@@ -1,6 +1,5 @@
 ---
 title: "Introduction to Git"
-draft: false
 shortcutDepth: 1
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "NumPy"
-draft: false
 shortcutDepth: 1
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Using the bash shell"
-draft: false
 shortcutDepth: 1
 ---
 

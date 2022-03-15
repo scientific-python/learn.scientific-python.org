@@ -1,6 +1,5 @@
 ---
 title: "SciPy"
-draft: false
 shortcutDepth: 1
 ---
 

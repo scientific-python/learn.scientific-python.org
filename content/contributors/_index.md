@@ -1,6 +1,5 @@
 ---
 title: "Contributors"
-draft: false
 shortcutDepth: 1
 ---
 

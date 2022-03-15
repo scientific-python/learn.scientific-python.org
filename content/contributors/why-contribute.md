@@ -1,7 +1,6 @@
 ---
 title: "Why contribute"
 youtube_id:
-draft: false
 ---
 
 **[DRAFT] This video has not been recorded yet.**

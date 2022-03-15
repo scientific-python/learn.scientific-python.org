@@ -1,7 +1,6 @@
 ---
 title: "Ecosystem"
 youtube_id:
-draft: true
 ---
 
 **[DRAFT] This video has not been recorded yet.**

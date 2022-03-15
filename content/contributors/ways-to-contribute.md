@@ -1,7 +1,6 @@
 ---
 title: "Ways to contribute"
 youtube_id:
-draft: false
 ---
 
 **[DRAFT] This video has not been recorded yet.**

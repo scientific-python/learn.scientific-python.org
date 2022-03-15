@@ -1,6 +1,5 @@
 ---
 title: "Python"
-draft: false
 shortcutDepth: 1
 ---
 

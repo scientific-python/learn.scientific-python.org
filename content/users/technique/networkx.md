@@ -1,6 +1,5 @@
 ---
 title: "NetworkX"
-draft: false
 shortcutDepth: 1
 ---
 

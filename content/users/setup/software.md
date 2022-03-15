@@ -1,6 +1,5 @@
 ---
 title: "Software installation"
-draft: false
 shortcutDepth: 1
 ---
 
