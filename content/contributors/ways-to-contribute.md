@@ -63,7 +63,7 @@ This doesn’t mean you need to write new documentation (which you can by follow
 1. Many projects have tutorials which you can review and report confusing or missing parts.
 2. Find typos and minor errors in docs and report them in the docs repository issue tracker.
 3. If you feel like creating your own content, you can write your own guides and tutorials.
-There are several categories of materials you can produce: how-tos, deep-dive explanations, gallery examples, notebooks, videos, etc.
+   There are several categories of materials you can produce: how-tos, deep-dive explanations, gallery examples, notebooks, videos, etc.
 4. Apart from content, you can also improve docs organization and style.
 
 ### Translations

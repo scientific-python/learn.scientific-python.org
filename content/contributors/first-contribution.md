@@ -12,14 +12,14 @@ youtube_id:
 ## Topic:
 Steps to do your first contribution to open source.
 
-## Outline: 
+## Outline:
 - Fork the repo
 - Clone your fork
 - Set up development environment
 - Pick an issue
 - Create a new branch
 - Find the file and make the changes
-- Confirm the issue is solved 
+- Confirm the issue is solved
 - Commit changes
 - Open PR
 
@@ -45,7 +45,7 @@ Now, we can get started.
 
 ### Step 1: Fork the projects repo
 
-Go to the project’s repository and click the “Fork” button at the top left of the page. This will create a copy of the repository in your own account. 
+Go to the project’s repository and click the “Fork” button at the top left of the page. This will create a copy of the repository in your own account.
 
 ### Step 2: Clone your fork
 
@@ -61,7 +61,7 @@ git remote add upstream https://github.com/.git
 
 ### Step 3: Set up your development environment
 
-Most open source projects have their own contributing guide, which explains the steps needed for setting up your development environment. You’ll usually find them in the root directory of the repo. 
+Most open source projects have their own contributing guide, which explains the steps needed for setting up your development environment. You’ll usually find them in the root directory of the repo.
 We recommend that you create a new environment for this.
 
 To create and activate a new Conda environment, type the following commands in your terminal (or Anaconda Prompt on Windows):
@@ -71,7 +71,7 @@ conda create -n [NAME] python=3
 conda activate  [NAME]
 ```
 
-After you have created your new Conda environment, you need to install the project’s necessary dependencies *(This depends on which project we will be using for this video)*:
+After you have created your new Conda environment, you need to install the project’s necessary dependencies _(This depends on which project we will be using for this video)_:
 
 ```bash
 conda install …
@@ -79,8 +79,8 @@ conda install …
 
 ### Step 4: Pick an issue
 
-Now we need to select the issue we want to fix on the issues tab *(Add link of Project's issue tracker to display in video here)* issue tracker of the repository and reproduce it in the development version of our project.
-*(Not sure this applies, again it depends on the project)*.
+Now we need to select the issue we want to fix on the issues tab _(Add link of Project's issue tracker to display in video here)_ issue tracker of the repository and reproduce it in the development version of our project.
+_(Not sure this applies, again it depends on the project)_.
 
 ### Step 5: Create a new branch for your changes
 
@@ -94,7 +94,6 @@ git checkout -b [BRANCH NAME]
 ### Step 6: Find the file and make the changes
 
 Open your editor or IDE in the file that you need to solve the issue and save your changes.
-
 
 ### Step 7: Confirm/test that the issue is solved in dev mode
 
@@ -110,7 +109,7 @@ git commit -a -m “descriptive message”
 ```
 
 Finally, push your new branch with your changes to your fork on GitHub:
- 
+
 ```bash
 git push -u origin [BRANCH NAME]
 ```
@@ -121,12 +120,10 @@ Enter your GitHub username and password if requested.
 
 Now, you can submit your changes to the project’s repo.
 
-
 Go to the project’s repository on Github, and you will see the option to open a Pull Request.
- You also have to make sure that you select the correct branch to merge your changes.
+You also have to make sure that you select the correct branch to merge your changes.
 
-
-You have now made your first contribution to open source! 
+You have now made your first contribution to open source!
 
 <!--
 

@@ -6,7 +6,7 @@ youtube_id:
 **[DRAFT] This video has not been recorded yet.**
 
 Before installing Scientific Python libraries, you need to have Python
-itself installed.  There are two, largely equivalent, ways of doing
+itself installed. There are two, largely equivalent, ways of doing
 that, and we describe both below.
 
 If you have a working version of Python on your system already (check
@@ -14,7 +14,7 @@ by running `python3`), you can skip to setting up a virtual environment.
 
 ## Segment 1: Python.org
 
-This is the official Python distribution, which uses the `pip` package manager.  `pip` installs packages from Python Package Index, or [PyPI](https://pypi.org/) for short.
+This is the official Python distribution, which uses the `pip` package manager. `pip` installs packages from Python Package Index, or [PyPI](https://pypi.org/) for short.
 
 Download the installer from https://www.python.org/downloads/.
 
@@ -42,7 +42,7 @@ Also, make sure you have `pip` installed---that is Python's default package mana
 python -m ensurepip
 ```
 
-You are now ready to install Scientific Python packages using `pip`!  For example:
+You are now ready to install Scientific Python packages using `pip`! For example:
 
 ```
 pip install ipython numpy scipy
@@ -70,7 +70,7 @@ it can, in addition to Python libraries, also install compilers,
 libraries, and so forth.
 
 Download the latest version [from
-GitHub](https://github.com/conda-forge/miniforge#mambaforge).  Run the
+GitHub](https://github.com/conda-forge/miniforge#mambaforge). Run the
 installer, and when it asks you "Do you wish the installer to
 initialize Mambaforge?" enter "yes".
 

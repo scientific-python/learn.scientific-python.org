@@ -5,9 +5,9 @@ youtube_id:
 
 **[DRAFT] This video has not been recorded yet.**
 
-Scientific Python is built on the Python programming language.  Using
+Scientific Python is built on the Python programming language. Using
 Scientific Python therefore requires having a firm grasp of Python
-itself.  We suggest reading through the [official
+itself. We suggest reading through the [official
 tutorial](https://docs.python.org/3/tutorial/), doing an online
 tutorial on [exercism](https://exercism.org/tracks/python), or using
 any of the countless resources that exist online or in print.
@@ -23,7 +23,7 @@ Python is an interpreted language: that means that it reads a text
 file with instructions and executes those one by one.
 
 The easiest way to create a text file is in a text editor, like Spyder or VSCode.
-We can do that right now.  Let's create a file called `hello.py`:
+We can do that right now. Let's create a file called `hello.py`:
 
 ```python
 print("Hello world")
@@ -100,7 +100,7 @@ By far the best way to learn, however, is to start coding!
 
 ## Stuck?
 
-The first thing to do when stuck is to read the documentation.  Note
+The first thing to do when stuck is to read the documentation. Note
 that almost all libraries ship with documentation right at your
 fingertips!
 

@@ -7,10 +7,8 @@ shortcutDepth: 1
 This is a draft document.
 {{< /notice >}}
 
-
 The Scientific Python ecosystem is a collection of community developed and owned Python
 projects widely used in scientific research, technical computing, and data science.
-
 
 {{< youtube page="ecosystem" levelOffset=2 >}}{{< /youtube >}}
 
