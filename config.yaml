@@ -11,7 +11,7 @@ markup:
 params:
   description: "Documentation for the Scientific Python community."
   images:
-  - /images/logo.svg
+    - /images/logo.svg
   navbarlogo:
     image: logo.svg
     text: Learn Scientific Python
@@ -20,29 +20,29 @@ params:
     title: Learn Scientific Python
     image: logo.svg
   navbar:
-   - title: Home
-     url: https://scientific-python.org/
-   - title: User Guide
-     url: /users/
-   - title: Contributor Guide
-     url: /contributors/
-   - title: Maintainer Guide
-     url: /maintainers/
-   - title: Blog
-     url: https://blog.scientific-python.org/
+    - title: Home
+      url: https://scientific-python.org/
+    - title: User Guide
+      url: /users/
+    - title: Contributor Guide
+      url: /contributors/
+    - title: Maintainer Guide
+      url: /maintainers/
+    - title: Blog
+      url: https://blog.scientific-python.org/
   panel:
     title: The definitive documentation
     subtitle: by the community, for the community
     tiles:
-    - buttonText: User Guide
-      url: /users/
-      text: Learn how to make the most of the Scientific Python ecosystem.
-    - buttonText: Contributor Guide
-      url: /contributors/
-      text: Learn best-practices for contributing to Scientific Python.
-    - buttonText: Maintainer Guide
-      url: /maintainers/
-      text: Learn how to build, coordinate, and sustain a healthy project.
+      - buttonText: User Guide
+        url: /users/
+        text: Learn how to make the most of the Scientific Python ecosystem.
+      - buttonText: Contributor Guide
+        url: /contributors/
+        text: Learn best-practices for contributing to Scientific Python.
+      - buttonText: Maintainer Guide
+        url: /maintainers/
+        text: Learn how to build, coordinate, and sustain a healthy project.
   footer:
     logo: logo.svg
     socialmediatitle: ""

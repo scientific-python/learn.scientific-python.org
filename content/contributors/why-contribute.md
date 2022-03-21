@@ -27,7 +27,7 @@ Here are a few reasons:
 
 ## Advance science
 
-First, Scientific Python is about science.  And if you believe that science makes the world better, then improving scientific tooling is extremely important!
+First, Scientific Python is about science. And if you believe that science makes the world better, then improving scientific tooling is extremely important!
 By putting better open source tools in the hands of researchers, we can help them to produce accurate results, do so in a transparent way, while also improving reproducibility.
 We believe that scientific tools should be open, and that they should belong to those who use them.
 
@@ -36,7 +36,7 @@ We believe that scientific tools should be open, and that they should belong to 
 Second, Scientific Python is about openness.
 When you take part in building open source software, your work may be used by thousands, sometimes millions of people.
 Your software may only be a tiny cog in a big machine, but it could help fly the next space mission, decipher the origins of the universe, or help invent radically new medical treatments.
-*That* is real impact!
+_That_ is real impact!
 
 ## Grow as a developer
 

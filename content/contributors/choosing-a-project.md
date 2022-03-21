@@ -52,15 +52,15 @@ If you haven’t heard back from them in a few days, it’s usually safe to give
 Getting to know the developer community is a great way to learn more about the
 projects and find a great fit.
 There are many ways to begin interacting with project communities:
- - Most projects have a developer mailing list.
- - Many projects also have other communication channels for developers and
-   newcomers, such as slack or discord.
- - Projects often have community meetings for developers or newcomers.
- - Consider [watching a project on GitHub][gh-watching].
+
+- Most projects have a developer mailing list.
+- Many projects also have other communication channels for developers and
+  newcomers, such as slack or discord.
+- Projects often have community meetings for developers or newcomers.
+- Consider [watching a project on GitHub][gh-watching].
 
 [gh-watching]: https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions
 
 <!--
 -I hope these tips help you find the right project to contribute to. Thanks for watching and welcome to Scientific Python!
 -->
-
