@@ -30,8 +30,9 @@ params:
       url: /contributors/
     - title: Maintainer Guide
       url: /maintainers/
-    - title: "Discussion Forum \u2197"
+    - title: Discussion Forum
       url: https://discuss.scientific-python.org/
+      is_external: true
   panel:
     title: The definitive documentation
     subtitle: by the community, for the community
