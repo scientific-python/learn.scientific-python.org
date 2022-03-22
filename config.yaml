@@ -22,14 +22,16 @@ params:
   navbar:
     - title: Home
       url: https://scientific-python.org/
+    - title: Blog
+      url: https://blog.scientific-python.org/
     - title: User Guide
       url: /users/
     - title: Contributor Guide
       url: /contributors/
     - title: Maintainer Guide
       url: /maintainers/
-    - title: Blog
-      url: https://blog.scientific-python.org/
+    - title: "Discussion Forum \u2197"
+      url: https://discuss.scientific-python.org/
   panel:
     title: The definitive documentation
     subtitle: by the community, for the community
