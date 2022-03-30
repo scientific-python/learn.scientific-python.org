@@ -34,8 +34,6 @@ params:
       url: https://discuss.scientific-python.org/
       is_external: true
   panel:
-    title: The definitive documentation
-    subtitle: by the community, for the community
     tiles:
       - buttonText: User Guide
         url: /users/
