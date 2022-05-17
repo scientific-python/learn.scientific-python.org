@@ -29,10 +29,15 @@ Such projects are mature and relatively full-featured.
 Given their central role in the ecosystem, working on these projects can have a huge impact.
 However, making changes to these projects may be more challenging than in newer
 and less central projects.
-It’s not uncommon even for core developers to have pull requests going through iterations for months before being merged.
+It's not uncommon even for core developers to have their pull requests go through iterations for months before being merged.
 
-For example, because NumPy affects pretty much the entire ecosystem, it is going to be very difficult to contribute larger features to and usually requires a NumPy Enhancement Proposal (NEP) to be approved before work is started on it.
-Enhancement Proposals are fairly common for core projects in the ecosystem and consist of a writeup of the planned changes, including a summary of the implementation, pros and cons of it, and sometimes a proof of concept coded up.
+For example, because NumPy affects pretty much the entire ecosystem, it is
+going to be very difficult to contribute larger features to and usually
+requires a NumPy Enhancement Proposal (NEP) to be approved before work is
+started on it.
+Enhancement Proposals are fairly common for core projects in the ecosystem and
+consist of a writeup of the planned changes, including a summary of the
+implementation, pros and cons of it, and sometimes a proof of concept coded up.
 It is then discussed and iterated on before a decision is made.
 
 On the other hand, other projects such as NetworkX may just require a review or two and basic tests before your changes are merged.
@@ -45,7 +50,7 @@ As such, it’s important to recognize that contributors and maintainers may not
 
 Since so many community members are volunteers, any and all contributions are highly valued.
 Maintainers always want to help, but they are often over-subscribed and may miss notifications or read something and forget to respond.
-If you haven’t heard back from them in a few days, it’s usually safe to give them a friendly ping to check.
+If you haven't heard back from them in a few days, it's usually safe to give them a friendly ping to check.
 
 ## Learn more about a project
 
