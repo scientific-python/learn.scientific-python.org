@@ -60,7 +60,7 @@ There are many ways to begin interacting with project communities:
 - Most projects have a developer mailing list or discussion forum.
 - Some projects also have real-time chat for developers and newcomers, such as Slack or Discord.
 - Projects often have weekly or monthly online community meetings.
-- You can also [watching a project's development activity on GitHub][gh-watch].
+- You can also [watch a project's development activity on GitHub][gh-watch].
 - Finally, you can join the [Scientific Python discussion forum](https://discuss.scientific-python.org/), where we bring together users and developers from multiple projects across the ecosystem.
 
 [gh-watch]: https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions
