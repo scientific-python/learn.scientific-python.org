@@ -63,6 +63,7 @@ There are many ways to begin interacting with project communities:
   newcomers, such as slack or discord.
 - Projects often have community meetings for developers or newcomers.
 - Consider [watching a project on GitHub][gh-watching].
+- Join the [Scientific Python discussion forum](https://discuss.scientific-python.org/) where we are bringing together users and developers from multiple projects.
 
 [gh-watching]: https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions
 
