@@ -16,11 +16,9 @@ A common question from new contributors is: "how do I choose which project to
 contribute to"?
 Some people end up contributing to many different projects, while others
 tend to focus their effort on a single project.
-Ultimately, the most important factors in this decision are your own personal
-goals and interests!
-The projects in the ecosystem have a lot in common; however, it is important to
-recognize that each project has it's own community, so there may be differences
-in the overall goals and decision-making processes for each project.
+And while projects in the ecosystem have a lot in common, each has it's own community---so there may be differences
+in culture, style, and decision-making processes.
+Ultimately, which projects you contribute to will depend a lot on your own personal interests and goals.
 
 ## Understanding the project
 
@@ -40,13 +38,14 @@ consist of a writeup of the planned changes, including a summary of the
 implementation, pros and cons of it, and sometimes a proof of concept coded up.
 It is then discussed and iterated on before a decision is made.
 
-On the other hand, other projects such as NetworkX may just require a review or two and basic tests before your changes are merged.
-This is important to keep in mind when picking out a project to work on.
+On the other hand, projects such as NetworkX may just require a review or two and basic tests before your changes are merged.
+
+It's worth remembering this distinction when deciding how much time you'd like to invest.
 
 ## Contributing to the ecosystem
 
-The open source Scientific Python community functions differently from a normal work environment because it is largely comprised of people contributing from different timezones in their free time.
-As such, it’s important to recognize that contributors and maintainers may not always be consistent in when they’re able to work or get back to you.
+The open source Scientific Python community functions differently from a normal work environment because it is largely comprised of people contributing in their free time, from different time zones.
+As such, contributors and maintainers may not always be able to get back to you immediately.
 
 Since so many community members are volunteers, any and all contributions are highly valued.
 Maintainers always want to help, but they are often over-subscribed and may miss notifications or read something and forget to respond.
@@ -58,14 +57,13 @@ Getting to know the developer community is a great way to learn more about the
 projects and find a great fit.
 There are many ways to begin interacting with project communities:
 
-- Most projects have a developer mailing list.
-- Many projects also have other communication channels for developers and
-  newcomers, such as slack or discord.
-- Projects often have community meetings for developers or newcomers.
-- Consider [watching a project on GitHub][gh-watching].
-- Join the [Scientific Python discussion forum](https://discuss.scientific-python.org/) where we are bringing together users and developers from multiple projects.
+- Most projects have a developer mailing list or discussion forum.
+- Some projects also have real-time chat for developers and newcomers, such as Slack or Discord.
+- Projects often have weekly or monthly online community meetings.
+- You can also [watching a project's development activity on GitHub][gh-watch].
+- Finally, you can join the [Scientific Python discussion forum](https://discuss.scientific-python.org/), where we bring together users and developers from multiple projects across the ecosystem.
 
-[gh-watching]: https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions
+[gh-watch]: https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/viewing-your-subscriptions
 
 <!--
 -I hope these tips help you find the right project to contribute to. Thanks for watching and welcome to Scientific Python!
