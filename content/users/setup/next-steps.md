@@ -42,7 +42,7 @@ You can also play around with Python code interactively in IPython:
 
 [launch IPython and run:]
 
-```python
+```pycon
 In [1]: def fibonacci(n):
    ...:     a, b = 0, 1
    ...:     for i in range(0, n):
