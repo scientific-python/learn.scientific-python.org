@@ -37,22 +37,23 @@ Alternative versions:
 - We make sure they know about our communication channels and feel comfortable staying in touch and following up with us, e.g. join our mailing lists, gitter, incubator.
 - We clarify what we do, and what we don’t do, e.g. in case someone joins and ask us to assign an issue to them 😉
 - We share ways we communicate async and norms or expectations around those.
-- Advanced level: consider having maintainers demonstrate how to do something in the meeting, e.g. set up the environment, do a PR for a test, a docstring, etc., record these sessions and post them on youtube as instructinoal videos you can share later on with new contributors who join and prefer video introductions.(be sure to offer people to mute and turn off video while recording session you will post online).
+- Advanced level: consider having maintainers demonstrate how to do something in the meeting, e.g. set up the environment, do a PR for a test, a docstring, etc., record these sessions and post them on youtube as instructional videos you can share later on with new contributors who join and prefer video introductions.
+    - Be sure to offer people to mute and turn off their video when recording a session you will post online or with others share later.
 
 ## Contributor Experience / Triage Meeting
 
 **This meeting aims to prioritize PRs and issues and make decisions on them.** Communicate and coordinate priorities, suggestions, clarifications, and decisions with contributors and maintainers.
 
 - Maintain labels: add descriptions, if relevant - create automation
-- Create regulrized responses which the team can share and reuse. 
-    - This can help reduce bias and assist all maintainers in avoiding errors in repetitive communicatino work. 
+- Create regularized responses which the team can share and reuse. 
+    - This can help reduce bias and assist all maintainers in avoiding errors in repetitive communication work. 
     - We recommend  maintainers and CE / T members save these into the [github saved replies](https://docs.github.com/en/get-started/writing-on-github/working-with-saved-replies/using-saved-replies)
         - Consider upvoting [this github issue](https://github.com/github/feedback/discussions/4974) to make save replies shared among project members
 - Take time, or assign someone(s), to mention if a PR or issue will be discussed in an upcoming meeting when .appropriate, so contributors are aware they can participate in discussion regarding their PRs or issues they opened
 - If the scope of the PR is beyond the knowledge or responsibilities of the CE/T group, they escalate the PR to the Community call agenda. 
-    - If this happens on too many PRs and/too often such that the impact onteh community call is noticeable consider the following: 
-        - more experienced maintainers should consider joining the CE/T temporarly to help manage the workload 
-        - a more expeirenced maintainer can mentor CE/T member(s) to learn more about the project, so they are empowered to handle more decisions and areas of expertiese with time.
+    - If this happens on too many PRs and/too often such that the impact on the community call is noticeable consider the following: 
+        - More experienced maintainers should consider joining the CE/T temporary to help manage the workload 
+        - A more experienced maintainer can mentor CE/T member(s) to learn more about the project, so they are empowered to handle more decisions and areas of expertise with time.
 - Scikit-learn did [a nice write up](https://github.com/scikit-learn/administrative/blob/master/triage_meetings/2021-12-10.md) of how they defined their triage process here.
 
 ## Documentation Meeting
@@ -63,7 +64,7 @@ Alternative versions:
 - English second language speakers might have a barrier to entry when the documentation is only available in English. Providing a welcoming space and communicating that we appreciate contributions regardless of English perfection is important.
 - Triage for all DOC issues and PRs
 - A dedicated documentation meeting can attract contributors with a unique set of skills that would not find their place in many other project meetings, e.g. front end developers, illustrators, and technical writers.
-- It can also be attractive for contributors who are interestised in a maintainer pathway which is centered on sphinx development, doc testing, technical writing. Keeping the documentation build in check and the docs up to date as well as creating new formats that support new contributors and users in ways the projects didn't have bandwidth to do before attracting such maintainers
+- It can also be attractive for contributors who are interested in a maintainer pathway which is centred on sphinx development, doc testing, technical writing. Keeping the documentation build in check and the docs up to date as well as creating new formats that support new contributors and users in ways the projects didn't have bandwidth to do before attracting such maintainers
 
 
 ## A Note on Meeting Frequency
