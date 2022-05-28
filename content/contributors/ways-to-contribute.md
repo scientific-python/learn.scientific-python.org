@@ -1,6 +1,6 @@
 ---
 title: "Ways to contribute"
-youtube_id:
+youtube_id: _9Jge-BN6Ew
 ---
 
 **[DRAFT] This video has not been recorded yet.**
