@@ -16,7 +16,7 @@ html: prepare
 
 serve: ## Serve site, typically on http://localhost:1313
 serve: prepare
-	@hugo --i18n-warnings server
+	@hugo --printI18nWarnings server
 
 clean: ## Remove built files
 clean:
