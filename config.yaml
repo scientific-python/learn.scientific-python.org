@@ -24,8 +24,6 @@ params:
       url: https://scientific-python.org/
     - title: Blog
       url: https://blog.scientific-python.org/
-    - title: User Guide
-      url: /users/
     - title: Contributor Guide
       url: /contributors/
     - title: Maintainer Guide
@@ -35,9 +33,6 @@ params:
       is_external: true
   panel:
     tiles:
-      - buttonText: User Guide
-        url: /users/
-        text: Learn how to make the most of the Scientific Python ecosystem.
       - buttonText: Contributor Guide
         url: /contributors/
         text: Learn best-practices for contributing to Scientific Python.

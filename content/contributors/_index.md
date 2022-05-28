@@ -21,5 +21,4 @@ The scientific Python ecosystem welcomes your expertise and enthusiasm!
 
 # Getting set up
 
-- [Bash]({{< relref "/contributors/setup/bash" >}})
-- [Git]({{< relref "/contributors/setup/git-intro" >}})
+- [Software]({{< relref "/contributors/setup/software" >}})
