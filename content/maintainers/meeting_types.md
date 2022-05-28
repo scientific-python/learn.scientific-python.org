@@ -1,4 +1,10 @@
-# Meeting Types
+--
+title: "Meeting types"
+---
+
+{{< notice warning >}}
+This is a draft document.
+{{< /notice >}}
 
 With growth and sustainability in mind, every OSS project would benefit from holding the following recurring meetings:
 
