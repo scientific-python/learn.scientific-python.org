@@ -1,6 +1,6 @@
 ---
 title: "Why contribute"
-youtube_id:
+youtube_id: 5X-FtaNUHsA
 ---
 
 **[DRAFT] This video has not been recorded yet.**
