@@ -3,8 +3,6 @@ title: "Why contribute"
 youtube_id: 5X-FtaNUHsA
 ---
 
-**[DRAFT] This video has not been recorded yet.**
-
 <!--
 Possible points to highlight, at least from the coding perspective:
 
