@@ -3,8 +3,6 @@ title: "Ways to contribute"
 youtube_id: _9Jge-BN6Ew
 ---
 
-**[DRAFT] This video has not been recorded yet.**
-
 <!--
 # 1.3 Ways to contribute
 
