@@ -1,6 +1,7 @@
 ---
 title: "Choosing a project"
-youtube_id:
+about: "Learn how to choose a project to start contributing to the Scientific Python Ecosystem."
+youtube_id: 0RyCE7KfcV8
 ---
 
 **[DRAFT] This video has not been recorded yet.**

@@ -1,5 +1,6 @@
 ---
 title: "Ecosystem"
+about: "Learn how the Scientific Python ecosystem is composed and some of its main packages."
 youtube_id:
 ---
 

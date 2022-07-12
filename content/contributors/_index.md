@@ -1,24 +1,30 @@
 ---
-title: "Contributors"
-shortcutDepth: 1
+title: "Contributor Guide"
+shortcutDepth: 2
 ---
 
 {{< notice warning >}}
 This is a draft document.
 {{< /notice >}}
 
-The scientific Python ecosystem welcomes your expertise and enthusiasm!
+Welcome to the Contributor Guide! Here you will find useful resources that will help you start contributing to the Scientific Python ecosystem.
 
-{{< youtube page="why-contribute" levelOffset=2 >}}{{< /youtube >}}
+## First steps
 
-{{< youtube page="ways-to-contribute" levelOffset=2 >}}{{< /youtube >}}
+{{< youtube page="why-contribute" levelOffset=3 >}}{{< /youtube >}}
 
-{{< youtube page="getting-started" levelOffset=2 >}}{{< /youtube >}}
+{{< youtube page="ways-to-contribute" levelOffset=3 >}}{{< /youtube >}}
 
-{{< youtube page="choosing-a-project" levelOffset=2 >}}{{< /youtube >}}
+{{< youtube page="choosing-a-project" levelOffset=3 >}}{{< /youtube >}}
 
-{{< youtube page="first-contribution" levelOffset=2 >}}{{< /youtube >}}
+{{< youtube page="getting-started" levelOffset=3 >}}{{< /youtube >}}
 
-# Getting set up
+{{< youtube page="first-contribution" levelOffset=3 >}}{{< /youtube >}}
 
-- [Software]({{< relref "/contributors/setup/software" >}})
+## Getting set up
+
+{{< youtube page="ecosystem" levelOffset=3 >}}{{< /youtube >}}
+
+{{< youtube page="install" levelOffset=3 >}}{{< /youtube >}}
+
+{{< youtube page="next-steps" levelOffset=3 >}}{{< /youtube >}}
