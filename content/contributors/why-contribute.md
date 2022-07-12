@@ -1,5 +1,6 @@
 ---
 title: "Why contribute"
+about: "Learn some of the reasons why contributing to open source Scientific Python is impactful and can be a transformative experience for developers!"
 youtube_id: 5X-FtaNUHsA
 ---
 

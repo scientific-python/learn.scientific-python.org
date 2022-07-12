@@ -1,5 +1,6 @@
 ---
 title: "Next Steps"
+about: "Start exploring some of the packages from the Scientific Python ecosystem."
 youtube_id:
 ---
 

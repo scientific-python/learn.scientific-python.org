@@ -1,7 +1,7 @@
 ---
 title: "Ways to contribute"
 youtube_id: _9Jge-BN6Ew
-about: "This is a brief explanation / description of the video."
+about: "Learn some of the ways you can contribute to open source Scientific Python projects without having to code."
 ---
 
 <!--

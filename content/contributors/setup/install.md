@@ -1,5 +1,6 @@
 ---
 title: Install
+about: "Learn the tools' intallation process in order to start contributing to the Scientific Python ecosystem."
 youtube_id:
 ---
 
