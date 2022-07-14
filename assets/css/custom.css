@@ -6,3 +6,8 @@
     margin: 2vh auto;
     justify-content: space-around;
 }
+
+img[alt*=socials]{
+	height: 25px;
+	margin-right: 5px;
+}
