@@ -39,6 +39,9 @@ params:
       - buttonText: Maintainer Guide
         url: /maintainers/
         text: Learn how to build, coordinate, and sustain a healthy project.
+      - buttonText: Community Guide
+        url: /community/
+        text: Get familiar with the Scientific Python community.
   footer:
     logo: logo.svg
     socialmediatitle: ""
