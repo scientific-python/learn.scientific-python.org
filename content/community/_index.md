@@ -27,6 +27,10 @@ Meet some of the members of the Scientific Python community.
 
 {{< youtube page="pamphile-roy" levelOffset=3 >}}{{< /youtube >}}
 
+## Community conferences
+
+{{< youtube page="scipy2022" levelOffset=3 >}}{{< /youtube >}}
+
 ## Join the community
 
 Scientific Python is community driven since projects are developed and maintained by open source communities. This is why we are looking for ways to expand our community in a welcoming and inclusive way. We have several ways for you to join us:
