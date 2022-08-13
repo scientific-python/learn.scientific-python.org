@@ -86,7 +86,7 @@ The conference also had awesome Birds of a Feather sessions this year, meant for
 - Clips showing schedule with different topics
 -->
 
-One of the most interesting spaces of the conference this year was the Maintainers panel where some maintainers of the Scientific Python ecosystem gathered to asnwer questions from attendees of the conference regarding different topics. This was the perfect space to directly interact with the developers of some of the Scientific Python packages and learn everything about the ecoystem. Not every day you get the chance to talk to a developer of your favorite python library.
+Another great space of the conference this year was the Maintainers panel where some maintainers of the Scientific Python ecosystem gathered to asnwer questions from attendees of the conference regarding different topics. This was the perfect space to directly interact with the developers of some of the Scientific Python packages and learn everything about the ecoystem. Not every day you get the chance to talk to a developer of your favorite python library.
 
 <!--
 - Clips of maintainer's panel
@@ -112,7 +112,7 @@ The last two days of the conference Saturday and Sunday (not everyone stays for 
 - Clips of sprints
 -->
 
-The conference was a blast and at the end we got to go home with new knowledge, new ideas and new friends. The open source Scientific Python community is amazing and the SciPy conference makes it possible to share ideas and build knowledge together.
+The conference this year had 992 attendees from 32 different countries. There were 27 tutorials, 61 talks, 12 BoFs, 4 keynotes and 5 networking sessions. SciPy 2022 was certainly a blast! At the end we got to go home with new knowledge, new ideas and new friends. Thank you so much to Enthought for putting together this extraordinary conference. The open source Scientific Python community is amazing and the SciPy conference makes it possible to share ideas and build knowledge together.
 
 <!--
 - Pictures of tweets by people about the conference
