@@ -79,7 +79,7 @@ There was also a Job Fair and Poster Session during Wednesday night where compan
 - Poster session
 -->
 
-The conference also had awesome Birds of a Feather sessions this year, meant for people to gather and discuss around shared interests. This is a really cool space to have conversations with other people that have similar thoughts, in order to build new ideas and create plans together around a specific topic. There were four of these sessions in total, splitted into two days, Thursday and Friday with at least four BOF's happening on different topics so, lots of options to get involved in interesting conversations!
+The conference also had awesome Birds of a Feather sessions this year, meant for people to gather and discuss around shared interests. This is a really cool space to have conversations with other people that have similar thoughts, in order to build new ideas and create plans together around a specific topic. There were four of these sessions in total, split into two days, Thursday and Friday with at least four BOF's happening on different topics, so lots of options to get involved in interesting conversations!
 
 <!--
 - Clips of BOF
