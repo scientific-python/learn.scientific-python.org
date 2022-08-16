@@ -86,20 +86,20 @@ The conference also had awesome Birds of a Feather sessions this year, meant for
 - Clips showing schedule with different topics
 -->
 
-Another great space of the conference this year was the Maintainers panel where some maintainers of the Scientific Python ecosystem gathered to asnwer questions from attendees of the conference regarding different topics. This was the perfect space to directly interact with the developers of some of the Scientific Python packages and learn everything about the ecoystem. Not every day you get the chance to talk to a developer of your favorite python library.
+Another great space of the conference this year was the Maintainers panel where some maintainers of the Scientific Python ecosystem gathered to asnwer questions from attendees of the conference regarding different topics. This was the perfect space to directly interact with the developers of some of the Scientific Python packages and learn everything about the ecoystem. Not every day you get the chance to talk to a developer of your favorite Python library.
 
 <!--
 - Clips of maintainer's panel
 -->
 
-Evenings at SciPy were filled with all the cool stuff. Lighning talks this year were on fire! These are 5 minute talks that people register to give during the conference about any topic. Literally any topic: from funny packages like catplotlib meant to plot cat images, to talks about planning SciPy on Mars using an astrodynamics python package called Poliastro or even a SciPy song. People don't usually come prepared to give them before the conference, they just get ideas during it and plan these short talks on the fly and results can be really amazing and almost always very funny. This is the perfect opportunity to lose the stage frigt and try something new!
+Evenings at SciPy were filled with all the cool stuff. Lighning talks this year were on fire! These are 5 minute talks that people register to give during the conference about any topic. Literally any topic: from funny packages like catplotlib meant to plot cat images, to talks about planning SciPy on Mars using an astrodynamics Python package called Poliastro or even a SciPy song. People don't usually come prepared to give them before the conference, they just get ideas during it and plan these short talks on the fly and results can be really amazing and almost always very funny. This is the perfect opportunity to lose the stage fright and try something new!
 
 <!--
 - Clips of lighning talks
 - Short snippet of SciPy song
 -->
 
-Almost every day after sessions at the conference were over, there was some other activity happening that included food for sure. This year we had the Annual Reception Sponsored by IBM, Data Drinks and Bites with Deepnote, Happy Hour by Mozilla, Taco Truck night and many other activities where we got to meet new friends and talk to people we have only ever interacted before on GitHub. After all, the best part of the conference is the community around it. Getting to meet the developers you have been working with for years or the maintainer of your favorite Scientific Python package is an opportunity that you can't miss.
+Almost every day after sessions at the conference were over, there was some other activity happening that included food for sure. This year we had the Annual Reception sponsored by IBM, Data Drinks and Bites with Deepnote, Happy Hour by Mozilla, Taco Truck night and many other activities where we got to meet new friends and talk to people we have only ever interacted before on GitHub. After all, the best part of the conference is the community around it. Getting to meet the developers you have been working with for years or the maintainer of your favorite Scientific Python package is an opportunity that you can't miss.
 
 <!--
 - Clips of the events
@@ -112,7 +112,7 @@ The last two days of the conference Saturday and Sunday (not everyone stays for 
 - Clips of sprints
 -->
 
-The conference this year had 992 attendees from 32 different countries. There were 27 tutorials, 61 talks, 12 BoFs, 4 keynotes and 5 networking sessions. SciPy 2022 was certainly a blast! At the end we got to go home with new knowledge, new ideas and new friends. Thank you so much to Enthought for putting together this extraordinary conference. The open source Scientific Python community is amazing and the SciPy conference makes it possible to share ideas and build knowledge together.
+The conference this year had 992 attendees from 32 different countries. There were 27 tutorials, 61 talks, 12 BoFs, 4 keynotes and 5 networking sessions. SciPy 2022 was certainly a blast! At the end we got to go home with new knowledge, new ideas and new friends. Thank you so much to Enthought, the conference organizers, and the speakers for putting together this extraordinary conference. The open source Scientific Python community is amazing and the SciPy conference makes it possible to share ideas and build knowledge together.
 
 <!--
 - Pictures of tweets by people about the conference
