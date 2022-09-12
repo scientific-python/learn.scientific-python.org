@@ -60,20 +60,25 @@ In [2]: np.linspace(0, 10, 5)
 Out[2]: array([ 0. ,  2.5,  5. ,  7.5, 10. ])
 ```
 
-## Segment 2: Mambaforge
+## Segment 2: Miniforge
 
-Mambaforge is a small Python distribution based around the mamba
+Miniforge is a small Python distribution based around the conda
 package manager, and installs packages from the community repository
 conda-forge.
 
-Mamba is a bit different from Python's `pip` package manager in that
+Conda is a bit different from Python's `pip` package manager in that
 it can, in addition to Python libraries, also install compilers,
 libraries, and so forth.
 
 Download the latest version [from
-GitHub](https://github.com/conda-forge/miniforge#mambaforge). Run the
-installer, and when it asks you "Do you wish the installer to
+GitHub](https://github.com/conda-forge/miniforge#miniforge3).
+
+Back up your shell init (`~/.zshrc`, `~/.bashrc`, etc.), since the installer will modify these.
+Run the installer (typically, `sh Miniforge3-Linux-x86_64.sh` at the terminal), and when it asks you "Do you wish the installer to
 initialize Mambaforge?" enter "yes".
+
+If you don't like the changes made to your shell init, restore it from backup,
+and enable `miniforge` with `source ~/miniforge3/bin/activate`.
 
 ### Set up a virtual environment
 
@@ -81,24 +86,24 @@ A virtual environment is a workspace into which you can install Python
 libraries, separate from what is being used by your operating system.
 
 Create a new virtual environment in a directory called
-`py3`:
+`science` (or call it whatever you like!):
 
 ```
-mamba create -p py39
+mamba create -p science
 ```
 
 Mamba uses `conda` to switch between virtual environments. Start using
 the new environment as follows:
 
 ```
-conda activate ./mamba39
+conda activate ./science
 ```
 
-You are now ready to install Scientific Python packages using `mamba`!
+You are now ready to install Scientific Python packages using `conda`!
 For example:
 
 ```
-mamba install ipython numpy scipy
+conda install ipython numpy scipy
 ```
 
 You should now be able to run IPython (the interactive Python shell) to try out NumPy:
