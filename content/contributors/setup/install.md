@@ -75,7 +75,7 @@ GitHub](https://github.com/conda-forge/miniforge#miniforge3).
 
 Back up your shell init (`~/.zshrc`, `~/.bashrc`, etc.), since the installer will modify these.
 Run the installer (typically, `sh Miniforge3-Linux-x86_64.sh` at the terminal), and when it asks you "Do you wish the installer to
-initialize Mambaforge?" enter "yes".
+initialize Miniforge?" enter "yes".
 
 If you don't like the changes made to your shell init, restore it from backup,
 and enable `miniforge` with `source ~/miniforge3/bin/activate`.
