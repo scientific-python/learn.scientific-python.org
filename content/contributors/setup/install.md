@@ -75,7 +75,7 @@ GitHub](https://github.com/conda-forge/miniforge#miniforge3).
 
 Back up your shell init (`~/.zshrc`, `~/.bashrc`, etc.), since the installer will modify these.
 Run the installer (typically, `sh Miniforge3-Linux-x86_64.sh` at the terminal), and when it asks you "Do you wish the installer to
-initialize Miniforge?" enter "yes".
+initialize Miniforge3 by running conda init?" enter "yes".
 
 If you don't like the changes made to your shell init, restore it from backup,
 and enable `miniforge` with `source ~/miniforge3/bin/activate`.
@@ -85,18 +85,18 @@ and enable `miniforge` with `source ~/miniforge3/bin/activate`.
 A virtual environment is a workspace into which you can install Python
 libraries, separate from what is being used by your operating system.
 
-Create a new virtual environment in a directory called
-`science` (or call it whatever you like!):
+Create a new virtual environment called `science` (or name it whatever
+you like!):
 
 ```
-mamba create -p science
+conda create -n science
 ```
 
-Mamba uses `conda` to switch between virtual environments. Start using
-the new environment as follows:
+Switch to the new environment (you need to do this every time you want
+to use it):
 
 ```
-conda activate ./science
+conda activate science
 ```
 
 You are now ready to install Scientific Python packages using `conda`!
