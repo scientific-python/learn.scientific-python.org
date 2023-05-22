@@ -24,10 +24,10 @@ youtube_id:
 How do you choose which project to contribute to?
 There's no single best way to choose a project, but here are some questions to think about when choosing:
 
-- *Is there a project related to your background or your research?* E.g., astronomers might prefer to contribute to [astropy]() or [sunpy]().
-- *Is there a package you're already using?* Even well-established general-purpose packages like [numpy](), [scipy](), or [matplotlib]() are still growing and changing, and need contributors.
-- *Is the project actively developed?* Take a look at the project's repository to see how recent the last update was, and how many people seem to be involved.
-- *Is the community healthy?* Project maintainers will be reviewing your work and mentoring you through the contribution process, so look to see if the interactions on the project's pull request pages are polite and welcoming.
+- _Is there a project related to your background or your research?_ E.g., astronomers might prefer to contribute to [astropy]() or [sunpy]().
+- _Is there a package you're already using?_ Even well-established general-purpose packages like [numpy](), [scipy](), or [matplotlib]() are still growing and changing, and need contributors.
+- _Is the project actively developed?_ Take a look at the project's repository to see how recent the last update was, and how many people seem to be involved.
+- _Is the community healthy?_ Project maintainers will be reviewing your work and mentoring you through the contribution process, so look to see if the interactions on the project's pull request pages are polite and welcoming.
 
 One last tip is to look at the project's open issues to see if there are any tagged as "easy" or "good first issue", and if any of those look appealing to you.
 
@@ -46,15 +46,15 @@ Other tools we use daily include:
 In this video series, the basics of using these tools are covered along the way.
 To learn more about them, take at the links below:
 
-- Command line terminal: 
-    - https://swcarpentry.github.io/shell-novice/
-    - https://tutorial.djangogirls.org/en/intro_to_command_line/
+- Command line terminal:
+  - https://swcarpentry.github.io/shell-novice/
+  - https://tutorial.djangogirls.org/en/intro_to_command_line/
 - Git and GitHub:
-    - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-    - https://docs.github.com/en/get-started
+  - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+  - https://docs.github.com/en/get-started
 - Text editors / IDEs:
-    - https://transitionintotech.com/choose-your-code-editor/
-    - https://realpython.com/python-ides-code-editors-guide/  <!-- this is out of date; e.g. it says VSCode is mac/windows only -->
+  - https://transitionintotech.com/choose-your-code-editor/
+  - https://realpython.com/python-ides-code-editors-guide/ <!-- this is out of date; e.g. it says VSCode is mac/windows only -->
 
 ## First contribution
 
