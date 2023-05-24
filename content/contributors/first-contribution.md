@@ -44,7 +44,7 @@ There are some links below the video to help you get these elements ready in cas
 
 Now, we can get started.
 
-### Step 1: Fork the projects repo
+### Step 1: Fork the project’s repo
 
 Go to the project’s repository and click the “Fork” button at the top left of the page. This will create a copy of the repository in your own account.
 
@@ -52,12 +52,12 @@ Go to the project’s repository and click the “Fork” button at the top left
 
 On your new fork, click the green “Code” button and copy the link that appears there to get the URL for cloning it.
 
-Now, open your terminal (or Git Bash, if you’ve installed Git for Windows) and type the command ‘git clone’ followed by pasting the URL you just copied. With this, you now have a local copy of your fork.
+Now, open your terminal (or Git Bash, if you’ve installed Git for Windows) and type the command `git clone` followed by pasting the URL you just copied. With this, you now have a local copy of your fork.
 
 Finally, change to the directory of the repo you just cloned and add the the project’s repo as the “upstream” remote repository by typing the following:
 
 ```bash
-git remote add upstream https://github.com/.git
+git remote add upstream https://github.com/organization-name/project-name.git
 ```
 
 ### Step 3: Set up your development environment
@@ -116,6 +116,18 @@ git push -u origin [BRANCH NAME]
 ```
 
 Enter your GitHub username and password if requested.
+
+{{< notice note >}}
+Entering your username and password every time you run `git push` can get tedious!
+Luckily GitHub lets you use an SSH key to authenticate automatically.
+Basically this involves creating two special files: one kept secret on your computer, and one uploaded to GitHub. If you want to set that up, see here:
+
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+You can also set up an SSH key using the `gh` command-line tool: https://cli.github.com/manual/ if you prefer.
+Mac and Windows users (but not Linux users!) who prefer to use `git` through a GUI can manage authentication using the [GitHub Desktop app](https://desktop.github.com/).
+{{< /notice >}}
 
 ### Step 9: Open PR
 
