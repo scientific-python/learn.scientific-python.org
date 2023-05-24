@@ -7,9 +7,9 @@ members"
 This is a draft document.
 {{< /notice >}}
 
-As a maintainer, you will be the first point of 
-contact for new community members. It is important 
-to embody a positive and helpful force for the 
+As a maintainer, you will be the first point of
+contact for new community members. It is important
+to embody a positive and helpful force for the
 health of your community.
 
 ### Be welcoming
