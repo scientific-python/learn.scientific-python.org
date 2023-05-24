@@ -41,7 +41,9 @@ ways that the offended party was hurt.
 ### When to step in
 Once discussions begin to get heated, with 
 misunderstandings and accusations getting thrown 
-it, it is best to step in, ask people to cool off, 
+in, immediate resolution can be difficult. At this point, 
+project leaders should consider stepping in, asking 
+involved parties to cool off, 
 and try to find a way for them to understand each 
 other.
 
