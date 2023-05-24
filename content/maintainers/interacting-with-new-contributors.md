@@ -13,10 +13,13 @@ to embody a positive and helpful force for the
 health of your community.
 
 ### Be welcoming
+
 Always behave in a manner that is polite, patient, and understanding. 
 Many contributors are acting on their own time so 
 try to create an environment that is energizing, 
-not draining.
+not draining. Don't forget that on public forums,
+potential new contributors will be monitoring
+the community dynamic before getting involved!
 
 Use language to show that you are excited and 
 grateful about their contributions to the project. 
@@ -32,11 +35,15 @@ feel supported and comfortable contributing to the
 project.
 
 ### Provide resources, not solutions
+
 While some level of shepherding is needed, be 
 careful not to micro-manage contributors, as it 
 hinders the learning process and can be 
 frustrating for both parties. First offer guidance 
-before using more hands-on approaches.
+before using more hands-on approaches, for example,
+try talking a contributor through the changes
+they need to make instead of typing the solution
+for them.
 
 For tasks that may be too advanced or daunting for 
 a first-time contributor, such as comprehensive 
@@ -53,6 +60,7 @@ formatter, such as
 most style-related nitpicks.
 
 ### Recognize contributions
+
 Remember that contributions are a good thing that 
 should be celebrated and encouraged. Communicate 
 your appreciation for the work your community 
