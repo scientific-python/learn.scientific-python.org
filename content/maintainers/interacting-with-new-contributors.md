@@ -13,7 +13,7 @@ to embody a positive and helpful force for the
 health of your community.
 
 ### Be welcoming
-Always behave polite, patient, and understanding. 
+Always behave in a manner that is polite, patient, and understanding. 
 Many contributors are acting on their own time so 
 try to create an environment that is energizing, 
 not draining.
