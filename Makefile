@@ -1,4 +1,4 @@
-.PHONY: help prepare html serve clean
+.PHONY: help prepare cookie cookie_ruby_deps external html serve clean
 .DEFAULT_GOAL := help
 
 # Add help text after each target name starting with '\#\#'
@@ -10,9 +10,23 @@ help:   ## show this help
 prepare:
 	git submodule update --init
 
-html: ## Build site in `./public`
+cookie_ruby_deps:
+	(cd external-content/cookie && \
+	gem install bundler && \
+	bundle install)
+
+cookie: cookie_ruby_deps
+	(cd external-content/cookie && \
+	bundle exec jekyll build --destination ../../public/development --baseurl "/development/")
+
+external: cookie
+
+html: ## Build learn site (without external content) in `./public`
 html: prepare
 	hugo
+
+html-all: ## Buildlearn site (with external content) in `./public`
+html-all: html external
 
 serve: ## Serve site, typically on http://localhost:1313
 serve: prepare

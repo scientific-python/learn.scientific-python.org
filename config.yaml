@@ -35,7 +35,10 @@ params:
     tiles:
       - buttonText: Contributor Guide
         url: /contributors/
-        text: Learn best-practices for contributing to Scientific Python.
+        text: Learn how to join the Scientific Python community!
+      - buttonText: Development Guide
+        url: /development/
+        text: Learn recommended tools and approaches for developing Scientific Python libraries.
       - buttonText: Maintainer Guide
         url: /maintainers/
         text: Learn how to build, coordinate, and sustain a healthy project.
