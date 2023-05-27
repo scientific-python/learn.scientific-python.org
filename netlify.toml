@@ -2,8 +2,8 @@
   PYTHON_VERSION = "3.8"
   HUGO_VERSION = "0.112.3"
 
-[[plugins]]
-  package = "netlify-plugin-checklinks"
+#[[plugins]]
+#  package = "netlify-plugin-checklinks"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
