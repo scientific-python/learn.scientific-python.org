@@ -5,9 +5,9 @@ shortcutDepth: 2
 
 Welcome to the Community Managers Guide! Here you will find useful resources that will help you foster your community better.
 
-- [Community Manager Role]({{< relref "/contributors/role" >}})
-- [Skills and Techniques]({{< relref "/contributors/skills" >}})
-- [Community Meetings]({{< relref "/contributors/community-meetings" >}})
-- [Community Outreach]({{< relref "/contributors/community-outreach" >}})
-- [Onboarding]({{< relref "/contributors/onboarding" >}})
-- [Project Management]({{< relref "/contributors/project management" >}})
+- [Community Manager Role]({{< relref "/community/role" >}})
+- [Skills and Techniques]({{< relref "/community/skills" >}})
+- [Community Meetings]({{< relref "/community/community-meetings" >}})
+- [Community Outreach]({{< relref "/community/community-outreach" >}})
+- [Onboarding]({{< relref "/community/onboarding" >}})
+- [Project Management]({{< relref "/community/project-management" >}})
