@@ -24,9 +24,9 @@ jobs:
           git fetch
           latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
           prog=$(git rev-list HEAD..$latestTag)
+          echo tag=$latestTag >> $GITHUB_OUTPUT
           if [[ $prog -ne 0 ]]; then
             git checkout $latestTag
-            echo tag=$latestTag >> $GITHUB_OUTPUT
           fi
       - run: git diff
       - uses: peter-evans/create-pull-request@v5
