@@ -22,11 +22,11 @@ jobs:
         id: latest
         run: |
           git fetch
-          latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
-          prog=$(git rev-list HEAD..$latestTag)
-          echo tag=$latestTag >> $GITHUB_OUTPUT
+          latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          prog=$(git rev-list --count HEAD..$latest_tag)
+          echo tag=$latest_tag >> $GITHUB_OUTPUT
           if [[ $prog -ne 0 ]]; then
-            git checkout $latestTag
+            git checkout $latest_tag
           fi
       - run: git diff
       - uses: peter-evans/create-pull-request@v5
