@@ -13,11 +13,13 @@ prepare:
 cookie_ruby_deps:
 	(cd external-content/cookie && \
 	gem install bundler && \
+        bundle config set --local deployment 'true' && \
+        bundle config set --local without development && \
 	bundle install)
 
 cookie: cookie_ruby_deps
 	(cd external-content/cookie && \
-	bundle exec jekyll build --destination ../../public/development --baseurl "/development/")
+	JEKYLL_ENV=production bundle exec jekyll build --destination ../../public/development --baseurl "/development/")
 
 external: cookie
 
