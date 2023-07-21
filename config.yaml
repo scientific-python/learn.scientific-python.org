@@ -23,14 +23,9 @@ params:
     - title: Home
       url: https://scientific-python.org/
     - title: Blog
-      url: https://blog.scientific-python.org/
-    - title: Contributor Guide
-      url: /contributors/
-    - title: Maintainer Guide
-      url: /maintainers/
-    - title: Discussion Forum
-      url: https://discuss.scientific-python.org/
-      is_external: true
+      url: https://blog.scientific-python.org
+    - title: Learn
+      url: /
   panel:
     tiles:
       - buttonText: Contributor Guide
@@ -85,8 +80,8 @@ params:
         links:
           - text: SPECs
             link: https://scientific-python.org/specs/
-          - text: Grants
-            link: https://scientific-python.org/grants/
+          - text: Summits
+            link: https://scientific-python.org/summits/
           - text: Calendars
             link: https://scientific-python.org/calendars/
       column3:
