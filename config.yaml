@@ -16,9 +16,7 @@ params:
     image: logo.svg
     text: Learn Scientific Python
     link: /
-  hero:
-    title: Learn Scientific Python
-    image: logo.svg
+  navbarlogoshow: true
   navbar:
     - title: Home
       url: https://scientific-python.org/
