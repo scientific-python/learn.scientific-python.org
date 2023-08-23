@@ -4,10 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: "monthly"
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     allow:
