@@ -117,7 +117,7 @@ git push -u origin [BRANCH NAME]
 
 Enter your GitHub username and password if requested.
 
-{{< notice note >}}
+{{< admonition note >}}
 Entering your username and password every time you run `git push` can get tedious!
 Luckily GitHub lets you use an SSH key to authenticate automatically.
 Basically this involves creating two special files: one kept secret on your computer, and one uploaded to GitHub. If you want to set that up, see here:
@@ -127,7 +127,7 @@ Basically this involves creating two special files: one kept secret on your comp
 
 You can also set up an SSH key using the `gh` command-line tool: https://cli.github.com/manual/ if you prefer.
 Mac and Windows users (but not Linux users!) who prefer to use `git` through a GUI can manage authentication using the [GitHub Desktop app](https://desktop.github.com/).
-{{< /notice >}}
+{{< /admonition >}}
 
 ### Step 9: Open PR
 
