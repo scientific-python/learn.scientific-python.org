@@ -3,9 +3,9 @@ title: "Contributor Guide"
 shortcutDepth: 2
 ---
 
-{{< notice warning >}}
+{{< admonition warning >}}
 This is a draft document.
-{{< /notice >}}
+{{< /admonition >}}
 
 Welcome to the Contributor Guide! Here you will find useful resources that will help you start contributing to the Scientific Python ecosystem.
 

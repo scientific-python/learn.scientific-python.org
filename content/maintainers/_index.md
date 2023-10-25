@@ -2,9 +2,9 @@
 title: "Maintainers"
 ---
 
-{{< notice warning >}}
+{{< admonition warning >}}
 This is a draft document.
-{{< /notice >}}
+{{< /admonition >}}
 
 The scientific Python ecosystem welcomes your expertise and enthusiasm!
 
