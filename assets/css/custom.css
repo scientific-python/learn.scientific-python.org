@@ -1,4 +1,3 @@
-img[alt*="socials"] {
-  height: 25px;
-  margin-right: 5px;
+.navbar-logo-text {
+  font-family: "Lato";
 }
