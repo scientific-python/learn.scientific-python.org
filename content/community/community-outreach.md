@@ -2,8 +2,6 @@
 title: "Community Outreach"
 ---
 
-# Community Outreach
-
 ## Outreaching to Social Media
 
 Use various social Media channels for outreach:
