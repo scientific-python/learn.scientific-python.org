@@ -12,7 +12,7 @@ prepare:
 
 cookie_ruby_deps:
 	(cd external-content/cookie && \
-	gem install bundler && \
+	gem install bundler -v 2.4.22 && \
         bundle config set --local deployment 'true' && \
         bundle config set --local without development && \
 	bundle install)
