@@ -32,12 +32,12 @@ params:
       - buttonText: Development Guide
         url: /development/
         text: Learn recommended tools and approaches for developing Scientific Python libraries.
-      - buttonText: Maintainer Guide
-        url: /maintainers/
-        text: Learn how to build, coordinate, and sustain a healthy project.
-      - buttonText: Community Guide
-        url: /community/
-        text: Get familiar with the Scientific Python community.
+      # - buttonText: Maintainer Guide
+      #   url: /maintainers/
+      #   text: Learn how to build, coordinate, and sustain a healthy project.
+      # - buttonText: Community Guide
+      #   url: /community/
+      #   text: Get familiar with the Scientific Python community.
   footer:
     logo: logo.svg
     socialmediatitle: ""
