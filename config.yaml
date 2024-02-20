@@ -7,6 +7,12 @@ disableKinds: ["term", "taxonomy"]
 markup:
   highlight:
     noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    renderHooks:
+      link:
+        enableDefault: true
 
 params:
   description: "Documentation for the Scientific Python community."

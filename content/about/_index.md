@@ -21,5 +21,4 @@ Community members must adhere to our [code of conduct](https://scientific-python
 
 # People
 
-For more information, see our
-[governance and decision making process]({{< relref "/about/governance" >}}).
+For more information, see our [governance and decision making process](/about/governance).
