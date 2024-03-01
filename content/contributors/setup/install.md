@@ -1,10 +1,6 @@
 ---
 title: Install
-about: "Learn the tools' intallation process in order to start contributing to the Scientific Python ecosystem."
-youtube_id:
 ---
-
-**[DRAFT] This video has not been recorded yet.**
 
 Before installing Scientific Python libraries, you need to have Python
 itself installed. There are two, largely equivalent, ways of doing

@@ -1,10 +1,6 @@
 ---
 title: "Getting started"
-about: "Learn the first steps to contribute to open source Scientific Python."
-youtube_id:
 ---
-
-**[DRAFT] This video has not been recorded yet.**
 
 <!--
 # Name options:

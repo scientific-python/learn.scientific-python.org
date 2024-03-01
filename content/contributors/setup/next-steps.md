@@ -1,12 +1,7 @@
 ---
 title: "Next Steps"
-about: "Start exploring some of the packages from the Scientific Python ecosystem."
-youtube_id:
 ---
 
-**[DRAFT] This video has not been recorded yet.**
-
-Scientific Python is built on the Python programming language. Using
 Scientific Python therefore requires having a firm grasp of Python
 itself. We suggest reading through the [official
 tutorial](https://docs.python.org/3/tutorial/), doing an online

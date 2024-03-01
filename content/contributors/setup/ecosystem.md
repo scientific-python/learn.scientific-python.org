@@ -1,10 +1,6 @@
 ---
 title: "Ecosystem"
-about: "Learn how the Scientific Python ecosystem is composed and some of its main packages."
-youtube_id:
 ---
-
-**[DRAFT] This video has not been recorded yet.**
 
 <!--
 It isn't just a collection of tools (though we should mention that briefly)
