@@ -1,7 +1,5 @@
 ---
 title: "Ways to contribute"
-youtube_id: _9Jge-BN6Ew
-about: "Learn some of the ways you can contribute to open source Scientific Python projects without having to code."
 ---
 
 <!--
@@ -21,6 +19,8 @@ Other ways to contribute to open source in which you don’t necessarily have to
 -->
 
 ## 5 ways to contribute to Scientific Python without coding
+
+{{< youtube id="_9Jge-BN6Ew" >}}{{< /youtube >}}
 
 <!--
 Hello everyone, I’m Juanita.

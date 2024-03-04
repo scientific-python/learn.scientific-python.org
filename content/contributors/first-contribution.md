@@ -1,10 +1,6 @@
 ---
 title: "First contribution"
-about: "Start working on your first contribution to open source Scientific Python."
-youtube_id:
 ---
-
-**[DRAFT] This video has not been recorded yet.**
 
 <!--
 # 1.4 First contribution
