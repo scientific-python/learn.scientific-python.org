@@ -86,7 +86,7 @@ plt.show()
 
 We'll post a list of links below the video where you can learn more:
 
-- [Scipy Lecture Notes](http://scipy-lectures.org/index.html)
+- [Scientific Python Lecture Notes](https://lectures.scientific-python.org/)
 - [NumPy User Guide](https://numpy.org/devdocs/user/tutorials_index.html)
 - [Matplotlib tutorials](https://matplotlib.org/stable/tutorials/index.html)
 - [pandas tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)
