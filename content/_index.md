@@ -2,25 +2,25 @@
 title:
 ---
 
-{{< grid columns="1 2 2 2" >}}
+{{< grid1 columns="1 2 2 2" >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = 'Contributor Guide'
 link = '/contributors/'
 body = '''
 Learn how to join the Scientific Python community!
 '''
-{{< /card >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = 'Development Guide'
 link = '/development/'
 body = '''
 Learn recommended tools and approaches for developing Scientific Python libraries.
 '''
-{{< /card >}}
 
-{{< /grid >}}
+{{< /grid1 >}}
 
 <!--
       # - buttonText: Maintainer Guide
