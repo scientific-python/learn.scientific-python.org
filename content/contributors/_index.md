@@ -7,7 +7,7 @@ Welcome to the Contributor Guide! Here you will find useful resources that will 
 
 ## First steps
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -39,11 +39,11 @@ title = 'First contribution'
 link = 'first-contribution'
 body = 'Start working on your first contribution to open source Scientific Python.'
 
-{{< /grid1 >}}
+{{< /grid >}}
 
 ## Getting set up
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -63,4 +63,4 @@ title = 'Next steps'
 link = 'setup/next-steps'
 body = 'Start exploring some of the packages from the Scientific Python ecosystem.'
 
-{{< /grid1 >}}
+{{< /grid >}}

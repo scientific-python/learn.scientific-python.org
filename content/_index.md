@@ -2,7 +2,7 @@
 title:
 ---
 
-{{< grid1 columns="1 2 2 2" >}}
+{{< grid columns="1 2 2 2" >}}
 
 [[item]]
 type = 'card'
@@ -20,7 +20,7 @@ body = '''
 Learn recommended tools and approaches for developing Scientific Python libraries.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}
 
 <!--
       # - buttonText: Maintainer Guide
