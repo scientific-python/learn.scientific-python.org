@@ -28,6 +28,8 @@ params:
       url: https://blog.scientific-python.org
     - title: Learn
       url: /
+    - title: Tools
+      url: https://tools.scientific-python.org
   footer:
     logo: logo.svg
     socialmediatitle: ""
