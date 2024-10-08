@@ -3,7 +3,7 @@
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: cef0300fd0fc4d2a87a85fa2093c6b283ea36f4b  # frozen: v5.0.0
+    rev: cef0300fd0fc4d2a87a85fa2093c6b283ea36f4b # frozen: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -19,7 +19,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/adamchainz/blacken-docs
-    rev: d4e2940d27621c7f20215459be05703947618b7b  # frozen: 1.19.0
+    rev: d4e2940d27621c7f20215459be05703947618b7b # frozen: 1.19.0
     hooks:
       - id: blacken-docs
 
