@@ -19,7 +19,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/adamchainz/blacken-docs
-    rev: d4e2940d27621c7f20215459be05703947618b7b # frozen: 1.19.0
+    rev: 78a9dcbecf4f755f65d1f3dec556bc249d723600 # frozen: 1.19.1
     hooks:
       - id: blacken-docs
 
