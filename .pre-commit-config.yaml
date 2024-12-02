@@ -24,7 +24,7 @@ repos:
       - id: blacken-docs
 
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: 33811c2f2958275c07d11823c138f1b1f81ace20  # frozen: v3.4.1
+    rev: 33811c2f2958275c07d11823c138f1b1f81ace20 # frozen: v3.4.1
     hooks:
       - id: prettier
         files: \.(css|md|yml|yaml)
