@@ -20,7 +20,7 @@ Other ways to contribute to open source in which you don’t necessarily have to
 
 ## 5 ways to contribute to Scientific Python without coding
 
-{{< youtube id="_9Jge-BN6Ew" >}}{{< /youtube >}}
+{{< youtube id=_9Jge-BN6Ew loading=lazy >}}
 
 <!--
 Hello everyone, I’m Juanita.

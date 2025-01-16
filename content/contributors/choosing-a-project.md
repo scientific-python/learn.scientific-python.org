@@ -2,7 +2,7 @@
 title: "Choosing a project"
 ---
 
-{{< youtube id="0RyCE7KfcV8" >}}{{< /youtube >}}
+{{< youtube id=0RyCE7KfcV8 loading=lazy >}}
 
 <!--
 -Hello everyone, I’m Juanita.
