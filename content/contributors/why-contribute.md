@@ -2,7 +2,7 @@
 title: "Why contribute"
 ---
 
-{{< youtube id="5X-FtaNUHsA" >}}{{< /youtube >}}
+<!-- youtube id=5X-FtaNUHsA loading=lazy -->
 
 <!--
 Possible points to highlight, at least from the coding perspective:
