@@ -20,6 +20,14 @@ body = '''
 Learn recommended tools and approaches for developing Scientific Python libraries.
 '''
 
+[[item]]
+type = 'card'
+title = 'Documentation Guide'
+link = '/documentation/'
+body = '''
+Learn recommended approaches for project documentation.
+'''
+
 {{< /grid >}}
 
 <!--
