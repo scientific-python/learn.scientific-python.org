@@ -13,24 +13,25 @@ title: "Accessible Documentation"
 
 ## Sources
 
-This guide was written based on 
+This guide was written based on
 
 - The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/) principles
--  [Accessibility user research with Space Telescope Science Institute](https://github.com/Iota-School/notebooks-for-all/tree/main/user-tests#test-1-navigation) and [Project Jupyter](https://github.com/jupyter/surveys/tree/master/surveys/2023-05-jupyterlab-accessibility#readme)
--  Documentation workshops in the Scientific Python project ecosystem
--  Experience doing accessibility work on open source projects. 
+- [Accessibility user research with Space Telescope Science Institute](https://github.com/Iota-School/notebooks-for-all/tree/main/user-tests#test-1-navigation) and [Project Jupyter](https://github.com/jupyter/surveys/tree/master/surveys/2023-05-jupyterlab-accessibility#readme)
+- Documentation workshops in the Scientific Python project ecosystem
+- Experience doing accessibility work on open source projects.
 
 It was written by Isabela Presedo-Floyd at Quansight Labs.
 
 ## What is accessible documentation?
 
-If you've made it to this guide in the first place, [accessibility](https://en.wikipedia.org/wiki/Web_accessibility) may be familiar to you already. Ultimately, the goal is to build an equitable world for disabled and able people; for documentation, this starts by making sure that disabled people can benefit from your documentation the same ways that abled people can whether they are blind or visually impaired, have limited mobility, are deaf or hard of hearing, or have mental disabilities. 
+If you've made it to this guide in the first place, [accessibility](https://en.wikipedia.org/wiki/Web_accessibility) may be familiar to you already. Ultimately, the goal is to build an equitable world for disabled and able people; for documentation, this starts by making sure that disabled people can benefit from your documentation the same ways that abled people can whether they are blind or visually impaired, have limited mobility, are deaf or hard of hearing, or have mental disabilities.
 
 This is a wide net to cast. Not only is there a breadth of experience and acommodations needed for all disabilities, the things that help one disabled person are often the exact things that would be impossible to use for another. So how in the world is accessible documentation even possible?
 
 When in doubt:
+
 - **Write it out.** Text is one of the most flexible and adaptable methods of communication digitally. It can be read visually, audibly, haptically, and be translated to other forms with the right technology. (Note, this does not apply to images of text.)
-- **Provide multiple options.** Instead of having *only* text or *only* images to explain a concept, have both. This allows people to engage as they need, it provides multiple paths instead of a single path that can become a wall depending on someone's ability.
+- **Provide multiple options.** Instead of having _only_ text or _only_ images to explain a concept, have both. This allows people to engage as they need, it provides multiple paths instead of a single path that can become a wall depending on someone's ability.
 - **Use things as they are intended.** For example, if you are writing documentation in plain HTML, use HTML elements as they are intended (often called [semantic HTML](https://developer.mozilla.org/en-US/curriculum/core/semantic-html/)); use `<button>` for buttons, not links (`<a>`). This means that the accessibility support built into the structure you are working with can be leveraged, and there is much more accessibility support for many major structures than you may expect.
 - **Listen to feedback.** Each person can only know so much and the people using your documentation can provide great insight. Listening to feedback is not the same as immediately making changes as soon as they are requested, do examine the impact of options as best you can.
 
@@ -38,14 +39,14 @@ When in doubt:
 
 As a documentation author, it's important to understand what is in your control and how you can make the most of it. This guide addresses only what is in control of documentation authors.
 
-|Authors make|Authors don't make|
-|---|---|
-| ✅ Documentation text | ❌ Website theme|
-| ✅ Images | ❌ The software being documented | 
-| ✅ Videos | ❌ Website dependencies | 
-| ✅ Demos of other kinds | ❌ The software used to access documentation|
-| ✅ Resource files for downloading | ❌ External links|
-| ✅ Community support events | |
+| Authors make                      | Authors don't make                           |
+| --------------------------------- | -------------------------------------------- |
+| ✅ Documentation text             | ❌ Website theme                             |
+| ✅ Images                         | ❌ The software being documented             |
+| ✅ Videos                         | ❌ Website dependencies                      |
+| ✅ Demos of other kinds           | ❌ The software used to access documentation |
+| ✅ Resource files for downloading | ❌ External links                            |
+| ✅ Community support events       |                                              |
 
 Note: Lots of people who write documentation do a lot of other things for the project as well. Because this guide cannot cover all possible accessibility efforts related to documentation at once, it only covers tasks related to this definition of documentation author.
 
@@ -61,7 +62,7 @@ The most important parts of documentation structure are to be consistent and to 
 
 Some more specific ways to do this are
 
-- [Use headings in order](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), without skipping levels. 
+- [Use headings in order](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), without skipping levels.
 - Have descriptive, consistent titles for web pages.
 - Make sure page titles and their name in the navigation match.
 - Provide a table of contents or a summary of what someone can find on that page. Bonus points if they are links that allow you to jump to other headings on the page.
@@ -77,9 +78,8 @@ Writing accessible documentation text includes all the usual text writing consid
 - Use [plain language](https://guides.18f.gov/content-guide/our-approach/plain-language/). Plain language is less formal, direct writing that focuses on using words familiar to the audience where field-specific terms are not required.
 - Avoid using [jargon](https://en.wikipedia.org/wiki/Jargon). Many fields will have specific terms and these should be used and defined, but do not use jargon where a more common term will be more clear.
 - Where possible, include or link to a glossary of terms relevant in the documentation.
-- Use the full version of acronyms the first time they are listed so that readers have at least once reference point for the context of acronyms elsewhere in the documentation. Linking acronyms to their definitions may also be helpful. 
+- Use the full version of acronyms the first time they are listed so that readers have at least once reference point for the context of acronyms elsewhere in the documentation. Linking acronyms to their definitions may also be helpful.
 - Write [descriptive link text](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html). This means that someone should be able to tell where a link will take them before they click on the link text. For example, "[visit Scientific Python](https://scientific-python.org/)" makes it clearer where the link points to than "click here."
-
 
 ### Images
 
@@ -97,7 +97,7 @@ Within the image, or the choices one faces when designing and making the image, 
 - Make sure the image can be expanded, zoomed, or otherwise respond to user size adjustments. This may cross into limitations with the documentation theme, but it is worth reviewing for and making a note if it is not within author control.
 - [Do not use flashing animations](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html) for any animated images. Flashing refers to any fast, high contrast color and/or light changes more than three times per second. These are known to trigger seizures and other pain.
 - Be consistent with your visuals, iconography, and colors where relevant. This preserves continuity and can help users orient themselves within the documentation.
-- Consider if some information-dense images can be broken into multiple images. 
+- Consider if some information-dense images can be broken into multiple images.
 
 Surrounding the image, or the choices one faces once the images appears in context, authors have to consider what happens if the image is not available.
 
@@ -110,7 +110,7 @@ In general do not use images to replace text information, use them to augment it
 
 ### Videos
 
-Introduce videos and their relevance to the surrounding documentation directly before they appear. 
+Introduce videos and their relevance to the surrounding documentation directly before they appear.
 
 Videos in documentation should not autoplay. They need a play button and a pause/stop button.
 
@@ -134,7 +134,7 @@ While it is important to recognize what accessibility considerations are directl
 
 **Advocate for change.** In many cases, accessiblity-related changes cannot be made by one person or require multiple people's expertise. These situations benefit from advocacy, where an author can use the accessibility awareness they have to encourage others to make changes with them. Examples include
 
-- Noting accessibility issues you find in your own documentation by describing its current behavior compared with the desired behavior. 
+- Noting accessibility issues you find in your own documentation by describing its current behavior compared with the desired behavior.
 - Asking specific questions about accessibility support to members of your team or to dependencies' teams. Noting the desired accessible behavior is also helpful here.
 - Gathering with other people in your project or across others who want to prioritize accessibility efforts. Figure out what issues you can face together or what you want to advocate for as a team.
 
@@ -158,7 +158,7 @@ While it is important to recognize what accessibility considerations are directl
 - [ ] Link text describes (contextually) where the link will take users if selected.
 - [ ] Images can be understood even when viewed in grayscale.
 - [ ] Images have sufficient color contrast.
-- [ ] Images can be expanded, zoomed, or otherwise respond to user size adjustments. 
+- [ ] Images can be expanded, zoomed, or otherwise respond to user size adjustments.
 - [ ] Details on images (like annotations) appear similar size to body text in context.
 - [ ] Images and details within images are used consistently across the page.
 - [ ] Images and details within images are used consistently across all documentation (where appropriate).
@@ -169,7 +169,7 @@ While it is important to recognize what accessibility considerations are directl
 - [ ] Videos have closed captioning available.
 - [ ] Videos have text transcripts available.
 - [ ] Sections of code, iframes, or any other self-contained content are briefly introduced in the text preceding them.
-- [ ] If all content on the page other than text cannot be loaded, the information that page exists to share can still be accessed. 
+- [ ] If all content on the page other than text cannot be loaded, the information that page exists to share can still be accessed.
 
 ## Further resources
 
