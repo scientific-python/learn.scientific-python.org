@@ -28,6 +28,14 @@ body = '''
 Numerical computing lectures that teach key packages in the scientific Python ecosystem, such as NumPy, SciPy, Matplotlib, scikit-learn, and scikit-image.
 '''
 
+[[item]]
+type = 'card'
+title = 'Community Guide'
+link = '/community'
+body = '''
+Learn how to manage the community of your open-source project.
+'''
+
 {{< /grid >}}
 
 <!--
