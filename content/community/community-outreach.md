@@ -7,6 +7,7 @@ title: "Community Outreach"
 Use various social Media channels for outreach:
 
 - BlueSky/Mastodon:
+
   - Utilize hashtags relevant to the scientific Python community to increase
     visibility.
   - Engage with users by responding to questions, sharing resources, and
