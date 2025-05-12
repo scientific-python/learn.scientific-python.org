@@ -45,7 +45,7 @@ and Sanket Verma during the 2023 Scientific Python Project Developer Summit
 
 Here's an image for illustration purposes:
 
-![oss_wheel](../content/community/oss_wheel.png)
+![oss_wheel](./content/community/oss_wheel.png)
 
 **Other useful skills**
 
