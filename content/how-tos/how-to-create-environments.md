@@ -1,10 +1,10 @@
 ---
-title: How to set up a virtual environment
+title: How to set up an environment
 ---
 
-In this guide we summarize some key commands to set up a virtual environment
-with different tools in the scientific python ecosystem. 
-A virtual environment is a workspace into which you can install Python
+In this guide we summarize some key commands to set up an environment
+with different tools that you might encounter in the scientific python 
+ecosystem. An environment is a workspace into which you can install Python
 libraries, separate from what is being used by your operating system.
 
 The environment managers that are covered in this how-to guide include:
@@ -14,13 +14,16 @@ The environment managers that are covered in this how-to guide include:
 - uv
 - pixi
 
-In each of these examples we'll create a new virtual environment related to our project called `science` 
-(you can use whichever name you prefer!). We'll activate the environment, install some dependencies, and see 
-an example of installing dependencies from a file. 
+In each of these examples we'll create a new virtual environment related to our 
+project called `science` (you can use whichever name you prefer!). We'll activate 
+the environment, install some dependencies, and see 
+an example of installing dependencies from an existing file. You may encounter 
+files like `requirements.txt`, `environment.yml` or `pyproject.toml` that specify 
+needed dependencies for a project.  
 
 ### Set up a virtual environment with venv
 
-With venv we'll have our virtual environment associated with our project folder called `science`. 
+With venv to create  environment associated with a project folder called `science`. 
 
 ```
 python -m venv science
@@ -51,6 +54,9 @@ Remember to re-activate your environment every time you open a new terminal, usi
 ```
 source science/bin/activate
 ```
+
+You can find more information on using venv for packaging 
+[here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
 ### Set up an environment using conda 
 
@@ -87,6 +93,9 @@ Remember to re-activate your environment every time you open a new terminal:
 conda activate science
 ```
 
+You can find more information on using conda for environments  
+[here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
 ### Set up an environment using mamba 
 
 With mamba, like conda, we can create a new environment named science (-n is the same as passing --name):
@@ -119,6 +128,9 @@ Remember to re-activate your environment every time you open a new terminal:
 ```
 mamba activate science
 ```
+
+You can find more information on using mamba in the   
+[mamba user guide](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html).
 
 ### Set up a virtual environment using uv 
 
@@ -192,7 +204,7 @@ pixi shell --environment=<envname>
 ```
 
 You can find more information on using pixi  
-[here](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment).
+[here](https://prefix.dev/docs/pixi/basic_usage).
 
 
 
