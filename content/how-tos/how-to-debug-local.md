@@ -8,10 +8,10 @@ title: "How do I debug my code with VS Code?"
 
 1. [Activate your environment](#placeholder-link-to-activate-env) and install your project in editable mode. Optionally, also install dev requirements, if your project has them. To do this, you can run in a terminal:
 
-    ```
-    pip install -r <path/to/dev-requirements.txt>
-    pip install -e .
-    ```
+   ```
+   pip install -r <path/to/dev-requirements.txt>
+   pip install -e .
+   ```
 
 1. Set up your VS Code Python interpreter to use the Python environment using the [Python: Select Interpreter](https://code.visualstudio.com/docs/python/environments#_working-with-python-interpreters) command.
 
