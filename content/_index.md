@@ -33,7 +33,7 @@ type = 'card'
 title = 'Community Guide'
 link = '/community'
 body = '''
-Learn how to manage the community of your open-source project.
+Learn how to manage the community of an open-source project.
 '''
 
 {{< /grid >}}
@@ -42,7 +42,4 @@ Learn how to manage the community of your open-source project.
       # - buttonText: Maintainer Guide
       #   url: /maintainers/
       #   text: Learn how to build, coordinate, and sustain a healthy project.
-      # - buttonText: Community Guide
-      #   url: /community/
-      #   text: Get familiar with the Scientific Python community.
 -->
