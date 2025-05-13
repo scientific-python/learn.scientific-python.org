@@ -164,7 +164,8 @@ uv pip install -f </path/to/requirements.txt>
 Remember to re-activate your environment time you open a new terminal:
 
 ```shell
-source <path/to/science/>.venv/bin/activate
+cd <path/to/science/>
+source .venv/bin/activate
 ```
 
 You can find more information on using uv for environments
