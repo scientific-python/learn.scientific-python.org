@@ -22,6 +22,14 @@ Learn recommended tools and approaches for developing Scientific Python librarie
 
 [[item]]
 type = 'card'
+title = 'Lectures Notes'
+link = 'https://lectures.scientific-python.org'
+body = '''
+Numerical computing lectures that teach key packages in the scientific Python ecosystem, such as NumPy, SciPy, Matplotlib, scikit-learn, and scikit-image.
+'''
+
+[[item]]
+type = 'card'
 title = 'Documentation Guide'
 link = '/documentation/'
 body = '''
