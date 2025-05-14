@@ -25,15 +25,16 @@ needed dependencies for a project.
 ### Set up a virtual environment with venv
 
 With venv to create environment associated with a project folder called `science`.
+First, navigate into the `science` project folder. Next, execute: 
 
 ```shell
-python -m venv science
+python -m venv
 ```
 
 Start using it by activating it as follows:
 
 ```shell
-source science/bin/activate
+source .venv/bin/activate
 ```
 
 You are now ready to install Scientific Python packages using `pip`! For example:
@@ -53,7 +54,8 @@ pip install -r <path/to/requirements.txt>
 Remember to re-activate your environment every time you open a new terminal, using:
 
 ```shell
-source science/bin/activate
+cd <path/to/science/>
+source .venv/bin/activate
 ```
 
 You can find more information on using venv for packaging
