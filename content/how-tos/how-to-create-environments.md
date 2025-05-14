@@ -173,9 +173,9 @@ mamba activate science
 You can find more information on using mamba in the
 [mamba user guide](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html).
 
-### Set up a virtual environment using pixi
+### Set up a virtual environment using Pixi
 
-To initialize a new project with pixi in our project called `science`, execute:
+To initialize a new project with Pixi in our project called `science`, execute:
 
 ```shell
 pixi init
@@ -201,7 +201,7 @@ the science folder, and execute:
 pixi shell
 ```
 
-This will drop you into the default environment for the pixi project, with all
+This will drop you into the default environment for the Pixi project, with all
 dependencies in that environment accessible to you in that shell.
 
 A pixi project may have multiple environments defined in the `pixi.toml` file. To
