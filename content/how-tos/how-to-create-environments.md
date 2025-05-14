@@ -59,6 +59,44 @@ source science/bin/activate
 You can find more information on using venv for packaging
 [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
+### Set up a virtual environment using uv
+
+To create a new environment using uv in a project folder called `science`,
+navigate to that folder and execute:
+
+```shell
+uv venv
+```
+
+Start using your environment by activating it:
+
+```shell
+source .venv/bin/activate
+```
+
+You are now ready to install Scientific Python packages using `uv`!
+For example:
+
+```shell
+uv pip install ipython numpy scipy
+```
+
+To install dependencies from a requirements file, use:
+
+```shell
+uv pip install -f </path/to/requirements.txt>
+```
+
+Remember to re-activate your environment time you open a new terminal:
+
+```shell
+cd <path/to/science/>
+source .venv/bin/activate
+```
+
+You can find more information on using uv for environments
+[here](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment).
+
 ### Set up an environment using conda
 
 With conda, we can create a new environment named science (-n is the same as passing --name):
@@ -132,44 +170,6 @@ mamba activate science
 
 You can find more information on using mamba in the
 [mamba user guide](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html).
-
-### Set up a virtual environment using uv
-
-To create a new environment using uv in a project folder called `science`,
-navigate to that folder and execute:
-
-```shell
-uv venv
-```
-
-Start using your environment by activating it:
-
-```shell
-source .venv/bin/activate
-```
-
-You are now ready to install Scientific Python packages using `uv`!
-For example:
-
-```shell
-uv pip install ipython numpy scipy
-```
-
-To install dependencies from a requirements file, use:
-
-```shell
-uv pip install -f </path/to/requirements.txt>
-```
-
-Remember to re-activate your environment time you open a new terminal:
-
-```shell
-cd <path/to/science/>
-source .venv/bin/activate
-```
-
-You can find more information on using uv for environments
-[here](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment).
 
 ### Set up a virtual environment using pixi
 
