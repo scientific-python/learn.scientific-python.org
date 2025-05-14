@@ -182,13 +182,13 @@ pixi init
 ```
 
 You are now ready to install Scientific Python packages as dependencies in this project!
-From the science directory, execute:
+From the `science` directory, execute:
 
 ```shell
 pixi add ipython numpy scipy
 ```
 
-To install dependencies from a file like `environment.yml`, use:
+If you have an existing conda environment defined in an `environment.yml`, you can initialize a Pixi environment with the packages defined in it by executing:
 
 ```shell
 pixi init --import <path/to/environment.yml>
