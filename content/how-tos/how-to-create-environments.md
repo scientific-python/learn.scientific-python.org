@@ -25,7 +25,7 @@ needed dependencies for a project.
 ### Set up a virtual environment with venv
 
 With venv to create environment associated with a project folder called `science`.
-First, navigate into the `science` project folder. Next, execute: 
+First, navigate into the `science` project folder. Next, execute:
 
 ```shell
 python -m venv
