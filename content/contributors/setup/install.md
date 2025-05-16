@@ -7,7 +7,7 @@ itself installed. There are two, largely equivalent, ways of doing
 that, and we describe both below.
 
 If you have a working version of Python on your system already (check
-by running `python3`), you can skip to setting up a virtual environment.
+by running `python` at the terminal), you can skip to "Segment 1: Set up a virtual environment".
 
 ## Segment 1: Python.org
 
@@ -20,23 +20,16 @@ Download the installer from https://www.python.org/downloads/.
 A virtual environment is a workspace into which you can install Python
 libraries, separate from what is being used by your operating system.
 
-Create a new virtual environment in a directory called
-`py3`:
+Here, we create a new virtual environment in a directory `science` (you can use whichever name you prefer!):
 
 ```
-python -m venv py3
+python -m venv science
 ```
 
-Start using it as follows:
+Start using it by activating it as follows:
 
 ```
-source py3/bin/activate
-```
-
-Also, make sure you have `pip` installed---that is Python's default package manager:
-
-```
-python -m ensurepip
+source science/bin/activate
 ```
 
 You are now ready to install Scientific Python packages using `pip`! For example:
@@ -54,6 +47,12 @@ In [1]: import numpy as np
 
 In [2]: np.linspace(0, 10, 5)
 Out[2]: array([ 0. ,  2.5,  5. ,  7.5, 10. ])
+```
+
+Remember to re-activate your environment every time you open a new terminal, using:
+
+```
+source science/bin/activate
 ```
 
 ## Segment 2: Miniforge
@@ -111,4 +110,10 @@ In [1]: import numpy as np
 
 In [2]: np.linspace(0, 10, 5)
 Out[2]: array([ 0. ,  2.5,  5. ,  7.5, 10. ])
+```
+
+Remember to re-activate your environment every time you open a new terminal:
+
+```
+conda activate science
 ```
