@@ -7,7 +7,6 @@ title: "Community Outreach"
 Use various social Media channels for outreach:
 
 - Twitter:
-
   - Utilize hashtags relevant to the scientific Python community to increase visibility.
   - Engage with users by responding to questions, sharing resources, and participating in discussions.
   - Retweet and mention influential users and organizations to foster connections.
