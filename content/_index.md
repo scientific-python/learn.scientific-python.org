@@ -2,7 +2,22 @@
 title:
 ---
 
-{{< grid columns="1 2 2 2" >}}
+````{grid} 1 2 2 2
+:gap: 3
+
+```{grid-item-card} Contributor Guide
+:link: /contributors/
+:shadow: md
+
+Learn how to join the Scientific Python community!
+```
+```{grid-item-card} Development Guide
+:link: /development/
+:shadow: md
+
+Learn recommended tools and approaches for developing Scientific Python libraries.
+```
+````
 
 [[item]]
 type = 'card'

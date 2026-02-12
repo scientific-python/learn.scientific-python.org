@@ -1,0 +1,46 @@
+format: jb-book
+root: content/_index
+
+parts:
+  - caption: About
+    chapters:
+      - file: content/about/_index
+      - file: content/about/governance
+
+  - caption: Community
+    chapters:
+      - file: content/community/_index
+      - file: content/community/role
+      - file: content/community/skills
+      - file: content/community/community-meetings
+      - file: content/community/community-outreach
+      - file: content/community/onboarding
+      - file: content/community/project-management
+
+  - caption: Contributors
+    chapters:
+      - file: content/contributors/_index
+      - file: content/contributors/why-contribute
+      - file: content/contributors/getting-started
+      - file: content/contributors/choosing-a-project
+      - file: content/contributors/first-contribution
+      - file: content/contributors/ways-to-contribute
+      - file: content/contributors/setup/install
+      - file: content/contributors/setup/ecosystem
+      - file: content/contributors/setup/next-steps
+
+  - caption: Documentation
+    chapters:
+      - file: content/documentation/_index
+      - file: content/documentation/accessible-documentation
+
+  - caption: Maintainers
+    chapters:
+      - file: content/maintainers/_index
+      - file: content/maintainers/meeting_types
+      - file: content/maintainers/managing-conflict
+      - file: content/maintainers/interacting-with-new-contributors
+
+  - caption: Roadmap
+    chapters:
+      - file: content/roadmap
