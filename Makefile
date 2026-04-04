@@ -1,4 +1,4 @@
-.PHONY: help prepare cookie cookie_ruby_deps external html serve clean
+.PHONY: help prepare cookie cookie_ruby_deps cookie_web_prepare external html serve clean
 .DEFAULT_GOAL := help
 
 # Add help text after each target name starting with '\#\#'
@@ -14,7 +14,11 @@ cookie_ruby_deps:
 	(cd external-content/cookie && \
 	bundle install)
 
-cookie: cookie_ruby_deps
+cookie_web_prepare:
+	(cd external-content/cookie && \
+    ./helpers/fetch_repo_review_app.sh)
+
+cookie: cookie_ruby_deps cookie_web_prepare
 	(cd external-content/cookie && \
 	JEKYLL_ENV=production bundle exec jekyll build --destination ../../public/development --baseurl "/development/")
 
