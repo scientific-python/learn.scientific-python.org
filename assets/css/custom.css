@@ -1,3 +1,24 @@
 .navbar-logo-text {
   font-family: "Lato";
 }
+/* --- Make layout feel less "book-ish" and closer to a website --- */
+.bd-main .bd-content .bd-article-container {
+  max-width: 900px; /* keep readable, less wide than default "docs" feel */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.01em;
+}
+
+/* Slightly tighten the top spacing so it feels more like a marketing/docs site */
+.bd-header {
+  box-shadow: none;
+}
+
+/* If the left sidebar feels too dominant, reduce its visual weight */
+.bd-sidebar-primary {
+  border-right: 0;
+}
