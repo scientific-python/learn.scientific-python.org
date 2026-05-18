@@ -1,6 +1,5 @@
 ---
 title: "Documentation Guide"
-shortcutDepth: 2
 ---
 
 Welcome to the Documentation Guide! Here you will find resources that describe documenting practices relevant to the ecosystem.
