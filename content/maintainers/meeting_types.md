@@ -2,9 +2,9 @@
 title: "Meeting types"
 ---
 
-{{< admonition warning >}}
+:::{warning}
 This is a draft document.
-{{< /admonition >}}
+:::
 
 With growth and sustainability in mind, every OSS project would benefit from holding the following recurring meetings:
 
