@@ -1,6 +1,5 @@
 ---
 title: "Contributor Guide"
-shortcutDepth: 2
 ---
 
 Welcome to the Contributor Guide! Here you will find useful resources that will help you start contributing to the Scientific Python ecosystem.
