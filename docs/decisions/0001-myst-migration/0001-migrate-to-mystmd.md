@@ -1,7 +1,8 @@
 # ADR 0001 — Migrate build system from Hugo to MyST-MD
 
 Date: 2026-05-11
-Status: Proposed — **open question for maintainers (see below)**
+Accepted: 2026-05-18
+Status: Accepted
 Branch: lb/myst-migration
 Issue: scientific-python/scientific-python.org#846
 
@@ -16,7 +17,7 @@ Three realistic MyST toolchain options exist. They are not equivalent:
 underlying engine and is available as both a Node package (npm) and a Python
 package (pip/conda) that bundles Node internally.
 
-## Decision (proposed)
+## Decision
 
 Replace Hugo with **`mystmd` Python package** (`pip install mystmd`,
 `myst build --html`) as the build tool.
@@ -49,19 +50,6 @@ functionality without any Node setup.
 RTD, or GitHub Actions (Node is bundled inside the package). The `myst.yml`
 config is identical to the Node CLI — switching delivery method later is a
 one-line change.
-
-## Open question for maintainers
-
-> **Which MyST toolchain should `learn.scientific-python.org` adopt?**
->
-> A. `mystmd` Python package — proposed above (`pip install mystmd`)
-> B. `jupyter-book 2.x` — if the team prefers a unified JB-based approach
-> C. `mystmd` Node CLI — if the team prefers the native Node runtime
->
-> This is the foundational decision for the migration. All downstream ADRs
-> (0002–0007) assume option A. If maintainers choose B, the `myst.yml` /
-> `_toc.yml` structure and config format change significantly. Option C
-> requires Node.js toolchain setup in `netlify.toml` and CI.
 
 ## Installation
 
