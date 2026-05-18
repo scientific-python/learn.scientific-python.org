@@ -7,12 +7,11 @@ Welcome to the Documentation Guide! Here you will find resources that describe d
 
 ## Documentation Authoring
 
-{{< grid columns="1 2 2 3" >}}
+::::{grid} 1 2 2 3
 
-[[item]]
-type = 'card'
-title = 'Accessible Documentation'
-link = 'accessible-documentation'
-body = 'Learn about how to structure and write project documentation that considers disabled and abled readers.'
+:::{card} Accessible Documentation
+:link: accessible-documentation
+Learn about how to structure and write project documentation that considers disabled and abled readers.
+:::
 
-{{< /grid >}}
+::::
