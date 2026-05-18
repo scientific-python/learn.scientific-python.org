@@ -2,41 +2,29 @@
 title:
 ---
 
-{{< grid columns="1 2 2 2" >}}
+::::{grid} 1 2 2 2
 
-[[item]]
-type = 'card'
-title = 'Contributor Guide'
-link = '/contributors/'
-body = '''
+:::{card} Contributor Guide
+:link: /contributors/
 Learn how to join the Scientific Python community!
-'''
+:::
 
-[[item]]
-type = 'card'
-title = 'Development Guide'
-link = '/development/'
-body = '''
+:::{card} Development Guide
+:link: /development/
 Learn recommended tools and approaches for developing Scientific Python libraries.
-'''
+:::
 
-[[item]]
-type = 'card'
-title = 'Lectures Notes'
-link = 'https://lectures.scientific-python.org'
-body = '''
+:::{card} Lectures Notes
+:link: https://lectures.scientific-python.org
 Numerical computing lectures that teach key packages in the scientific Python ecosystem, such as NumPy, SciPy, Matplotlib, scikit-learn, and scikit-image.
-'''
+:::
 
-[[item]]
-type = 'card'
-title = 'Documentation Guide'
-link = '/documentation/'
-body = '''
+:::{card} Documentation Guide
+:link: /documentation/
 Learn recommended approaches for project documentation.
-'''
+:::
 
-{{< /grid >}}
+::::
 
 <!--
       # - buttonText: Maintainer Guide
