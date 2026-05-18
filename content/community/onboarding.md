@@ -2,9 +2,9 @@
 title: "Onboarding"
 ---
 
-{{< admonition warning >}}
+:::{warning}
 This is a draft document.
-{{< /admonition >}}
+:::
 
 - Organizing sprints
   - Organising sprints are an excellent way to invite new collaborators, solve issues, gather contributions and broaden the project community. Some helpful tips for organising a sprint efficiently:
