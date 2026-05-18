@@ -2,9 +2,9 @@
 title: "Maintainers"
 ---
 
-{{< admonition warning >}}
+:::{warning}
 This is a draft document.
-{{< /admonition >}}
+:::
 
 The scientific Python ecosystem welcomes your expertise and enthusiasm!
 
