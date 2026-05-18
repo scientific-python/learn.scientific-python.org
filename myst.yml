@@ -1,0 +1,45 @@
+version: 1
+
+project:
+  id: 97f4bf9c-5845-4aac-aa8d-1051725d9067 # fixed UUID; MyST regenerates on each build without this, breaking caching
+  title: Learn Scientific Python
+  exclude:
+    - external-content/**
+    - themes/**
+  toc:
+    - file: content/_index.md
+    - file: content/about/_index.md
+      children:
+        - file: content/about/governance.md
+    - file: content/contributors/_index.md
+      children:
+        - file: content/contributors/getting-started.md
+        - file: content/contributors/choosing-a-project.md
+        - file: content/contributors/why-contribute.md
+        - file: content/contributors/ways-to-contribute.md
+        - file: content/contributors/first-contribution.md
+        - title: Setup
+          children:
+            - file: content/contributors/setup/install.md
+            - file: content/contributors/setup/ecosystem.md
+            - file: content/contributors/setup/next-steps.md
+    - file: content/community/_index.md
+      children:
+        - file: content/community/role.md
+        - file: content/community/onboarding.md
+        - file: content/community/skills.md
+        - file: content/community/project-management.md
+        - file: content/community/community-meetings.md
+        - file: content/community/community-outreach.md
+    - file: content/documentation/_index.md
+      children:
+        - file: content/documentation/accessible-documentation.md
+    - file: content/maintainers/_index.md
+      children:
+        - file: content/maintainers/interacting-with-new-contributors.md
+        - file: content/maintainers/managing-conflict.md
+        - file: content/maintainers/meeting_types.md
+    - file: content/roadmap.md
+
+site:
+  title: Learn Scientific Python
