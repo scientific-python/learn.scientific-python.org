@@ -7,11 +7,11 @@ project:
     - external-content/**
     - themes/**
   toc:
-    - file: content/_index.md
-    - file: content/about/_index.md
+    - file: content/index.md
+    - file: content/about/index.md
       children:
         - file: content/about/governance.md
-    - file: content/contributors/_index.md
+    - file: content/contributors/index.md
       children:
         - file: content/contributors/getting-started.md
         - file: content/contributors/choosing-a-project.md
@@ -23,7 +23,7 @@ project:
             - file: content/contributors/setup/install.md
             - file: content/contributors/setup/ecosystem.md
             - file: content/contributors/setup/next-steps.md
-    - file: content/community/_index.md
+    - file: content/community/index.md
       children:
         - file: content/community/role.md
         - file: content/community/onboarding.md
@@ -31,10 +31,10 @@ project:
         - file: content/community/project-management.md
         - file: content/community/community-meetings.md
         - file: content/community/community-outreach.md
-    - file: content/documentation/_index.md
+    - file: content/documentation/index.md
       children:
         - file: content/documentation/accessible-documentation.md
-    - file: content/maintainers/_index.md
+    - file: content/maintainers/index.md
       children:
         - file: content/maintainers/interacting-with-new-contributors.md
         - file: content/maintainers/managing-conflict.md
