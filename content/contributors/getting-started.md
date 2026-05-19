@@ -20,8 +20,8 @@ title: "Getting started"
 How do you choose which project to contribute to?
 There's no single best way to choose a project, but here are some questions to think about when choosing:
 
-- _Is there a project related to your background or your research?_ E.g., astronomers might prefer to contribute to [astropy]() or [sunpy]().
-- _Is there a package you're already using?_ Even well-established general-purpose packages like [numpy](), [scipy](), or [matplotlib]() are still growing and changing, and need contributors.
+- _Is there a project related to your background or your research?_ E.g., astronomers might prefer to contribute to [astropy](https://www.astropy.org/) or [sunpy](https://sunpy.org/).
+- _Is there a package you're already using?_ Even well-established general-purpose packages like [numpy](https://numpy.org/), [scipy](https://scipy.org/), or [matplotlib](https://matplotlib.org/) are still growing and changing, and need contributors.
 - _Is the project actively developed?_ Take a look at the project's repository to see how recent the last update was, and how many people seem to be involved.
 - _Is the community healthy?_ Project maintainers will be reviewing your work and mentoring you through the contribution process, so look to see if the interactions on the project's pull request pages are polite and welcoming.
 
@@ -37,7 +37,7 @@ Other tools we use daily include:
 
 - git and GitHub
 - the command-line terminal, and
-- a plain-text editor or [integrated development environment]() ("IDE").
+- a plain-text editor or [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) ("IDE").
 
 In this video series, the basics of using these tools are covered along the way.
 To learn more about them, take at the links below:
