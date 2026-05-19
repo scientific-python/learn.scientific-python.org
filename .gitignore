@@ -1,6 +1,5 @@
-.hugo*
 *~
-resources/
 public/
 _build/
+content/_build/
 .DS_Store
