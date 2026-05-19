@@ -217,6 +217,10 @@ Goal: `myst.yml` carries the metadata that used to live in
 `config.yaml`, **except** for what we explicitly deferred (footer,
 quicklinks).
 
+**Execution note:** commit 1 was done immediately before Phase 7 to
+preserve `config.yaml` as a reference before deletion. Commit 2 remains
+deferred pending follow-up issue filing.
+
 ### Commits
 
 1. `config: populate myst.yml site metadata`
@@ -231,7 +235,7 @@ quicklinks).
    - Why: feature parity for everything except footer/quicklinks, which
      ADR 0005 defers.
 
-2. `config: document deferred footer/quicklinks`
+2. `config: document deferred footer/quicklinks` _(deferred)_
    - Files: add a comment block at the bottom of `myst.yml` with
      footer/quicklinks deferred, including the actual follow-up issue
      numbers.
@@ -373,6 +377,7 @@ Goal: a fresh clone has no Hugo references.
      assets); add `content/_build/`. Keep `public/` (`html-all` writes there).
      `*~` and `.DS_Store` remain unchanged.
    - Why: clean working tree.
+   - Note: `static/` → `assets/` rename was done in Phase 4 commit 1.
 
 ### Verification
 
