@@ -24,17 +24,19 @@ cookie: cookie_ruby_deps cookie_web_prepare
 
 external: cookie
 
-html: ## Build learn site (without external content) in `./public`
+html: ## Build learn site in `./content/_build/html`
 html: prepare
-	hugo
+	(cd content && myst build --html)
 
-html-all: ## Buildlearn site (with external content) in `./public`
-html-all: html external
+html-all: ## Build learn site with external content in `./public`
+html-all: html
+	mkdir -p public && cp -r content/_build/html/. public/
+	$(MAKE) external
 
-serve: ## Serve site, typically on http://localhost:1313
+serve: ## Serve site, typically on http://localhost:3000
 serve: prepare
-	@hugo --printI18nWarnings server
+	(cd content && myst start)
 
 clean: ## Remove built files
 clean:
-	rm -rf public
+	rm -rf content/_build public

@@ -1,23 +1,7 @@
 [build.environment]
   PYTHON_VERSION = "3.13"
-  HUGO_VERSION = "0.141.0"
-  DART_SASS_VERSION = "1.83.4"
-  DART_SASS_URL = "https://github.com/sass/dart-sass/releases/download/"
 
 [build]
   base = "/"
   publish = "public"
-  command = """\
-    export DART_SASS_TARBALL="dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
-    curl -LJO ${DART_SASS_URL}/${DART_SASS_VERSION}/${DART_SASS_TARBALL} && \
-    tar -xf ${DART_SASS_TARBALL} && \
-    rm ${DART_SASS_TARBALL} && \
-    export PATH=/opt/build/repo/dart-sass:$PATH && \
-    make html-all \
-    """
-
-[[plugins]]
-  package = "netlify-plugin-checklinks"
-
-  [plugins.inputs]
-  skipPatterns = ['https://fonts.gstatic.com', 'https://fonts.googleapis.com', "https://unpkg.com"]
+  command = "pip install mystmd && make html-all"

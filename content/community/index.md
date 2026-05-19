@@ -1,6 +1,5 @@
 ---
 title: "Community Guide"
-shortcutDepth: 2
 ---
 
 Welcome to the Community Managers Guide! Here you will find useful resources that will help you foster your community better.

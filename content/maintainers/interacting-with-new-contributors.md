@@ -3,9 +3,9 @@ title: "How to interact with new community
 members"
 ---
 
-{{< admonition warning >}}
+:::{warning}
 This is a draft document.
-{{< /admonition >}}
+:::
 
 As a maintainer, you will be the first point of
 contact for new community members. It is important
