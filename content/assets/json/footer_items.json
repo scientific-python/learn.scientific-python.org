@@ -1,0 +1,19 @@
+{
+  "links": {
+    "About": "/about",
+    "Roadmap": "/roadmap",
+    "Code of Conduct": "https://scientific-python.org/code_of_conduct/",
+    "SPECs": "https://scientific-python.org/specs/",
+    "Summits": "https://scientific-python.org/summits/",
+    "Calendars": "https://scientific-python.org/calendars/",
+    "Press kit": "https://scientific-python.org/press-kit/"
+  },
+  "icons": {
+    "github": "https://github.com/scientific-python/",
+    "youtube": "https://www.youtube.com/c/ScientificPython-org",
+    "mastodon": "https://fosstodon.org/@scientific_python",
+    "bluesky": "https://bsky.app/profile/scientific-python.org",
+    "discourse": "https://discuss.scientific-python.org/",
+    "discord": "https://discord.com/invite/vur45CbwMz"
+  }
+}
