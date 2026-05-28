@@ -1,4 +1,8 @@
 version: 1
+# Inherit shared Scientific Python theme (template, footer, plugins, CSS).
+# Vendored from scientific-python/scientific-python-myst-theme via copier;
+# see docs/decisions/0001-myst-migration/0009-myst-theme-integration.md.
+extends: config/scientific-python.yml
 
 project:
   id: 97f4bf9c-5845-4aac-aa8d-1051725d9067 # fixed UUID; MyST regenerates on each build without this, breaking caching
@@ -52,5 +56,9 @@ site:
       url: https://tools.scientific-python.org
   options:
     domain: learn.scientific-python.org
-    logo: ../assets/images/logo.svg
-    folders: true
+    logo: assets/images/logo.svg
+    favicon: assets/images/favicon.ico
+    # template, folders, hide_*, and style inherited from
+    # config/scientific-python.yml (style: assets/css/scientific-python.css).
+    # No local style override: mystmd >=1.10 requires style to be a single
+    # string, so the former theme-CSS + custom.css layering is not possible.
