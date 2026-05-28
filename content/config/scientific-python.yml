@@ -1,0 +1,13 @@
+version: 1
+
+site:
+  template: book-theme
+  parts:
+    primary_sidebar_footer: sidebar-footer.md
+    footer: footer.md
+  options:
+    style: assets/css/scientific-python.css
+    hide_toc: true
+    hide_footer_links: true
+    folders: true
+    hide_myst_branding: true
