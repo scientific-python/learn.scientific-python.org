@@ -22,3 +22,9 @@
 
   [plugins.inputs]
   skipPatterns = ['https://fonts.gstatic.com', 'https://fonts.googleapis.com', "https://unpkg.com"]
+  # Tolerate two unavoidable artifacts of link-checking the MyST-built
+  # `/development/` site: hyperlink's parser chokes on MyST's bundled
+  # mermaid chunk (`static {}` class blocks), and it reports valid
+  # in-page fragments as failures when the target passes through MyST's
+  # pretty-URL normalization (e.g. /pages/guides/pytest -> .../index.html).
+  todoPatterns = ['fragment-redirect', 'mermaid.core']
