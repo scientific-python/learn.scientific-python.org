@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  min-height: 0;
+  flex: 1 0 auto;
+}
+
+.article.content {
+  /* Override 100vh from myst-theme:styles/typography.css so content div
+   * doesn't grow <main> to push the footer offscreen.
+   */
+  min-height: 0;
+}
+
+.footer {
+  /* Make footer "sticky" to page bottom (also the above flex rules), per
+   * the flexbox strategy described here:
+   *    https://css-tricks.com/couple-takes-sticky-footer/#aa-there-is-flexbox
+   * and here:
+   *    https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+   * This solution does not require hardcoding a fixed footer height in the
+   * style rules.
+   */
+  flex-shrink: 0;
+  background: #013243;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+
+  /* Outer content grid */
+  & .outer-grid {
+    /* spacer, project description, spacer, link columns, spacer */
+    grid-template-columns: 3fr 3fr 4fr;
+    align-items: center;
+    margin-bottom: 0rem;
+
+    & li {
+      list-style: none;
+    }
+  }
+
+  @media (max-width: 640px) {
+    & .outer-grid {
+      grid-template-columns: 1fr;
+      justify-items: start;
+    }
+  }
+
+  /* Heading colours */
+  & a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: white;
+  }
+
+  & h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}
+
+/* Hide download button */
+.myst-fm-downloads-button {
+  display: none;
+}
+
+/* Set site title bold */
+.myst-home-link {
+  font-weight: bold;
+}
+
+/* Unsure where this CSS came from, but keeping it for now */
+/* --- Make layout feel less "book-ish" and closer to a website --- */
+.bd-main .bd-content .bd-article-container {
+  max-width: 900px; /* keep readable, less wide than default "docs" feel */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.01em;
+}
+
+/* Slightly tighten the top spacing so it feels more like a marketing/docs site */
+.bd-header {
+  box-shadow: none;
+}
+
+/* If the left sidebar feels too dominant, reduce its visual weight */
+.bd-sidebar-primary {
+  border-right: 0;
+}
