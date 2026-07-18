@@ -12,7 +12,7 @@ prepare:
 
 cookie:
 	(cd external-content/cookie/docs && \
-	BASE_URL=/development/ npx --yes mystmd build --html)
+	BASE_URL=/development npx --yes mystmd build --html)
 	mkdir -p public/development
 	cp -r external-content/cookie/docs/_build/html/. public/development/
 
