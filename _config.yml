@@ -1,0 +1,70 @@
+# _config.yml
+title: learn.scientific-python.org
+only_build_toc_files: true
+
+# Keep things simple and MyST-first
+parse:
+  myst_enable_extensions: []
+
+sphinx:
+  config:
+    extra_extensions:
+      - sphinx_design
+    # --- Theme / branding ---
+    html_theme: pydata_sphinx_theme
+    html_title: "Learn Scientific Python"
+    html_logo: "static/images/logo.svg"
+
+    # Make your existing assets available to Sphinx
+    html_static_path:
+      - "assets"
+      - "static"
+
+    # Reuse existing custom CSS (assets/css/custom.css)
+    html_css_files:
+      - "css/custom.css"
+
+    # --- PyData theme options (navbar/footer-ish) ---
+    html_theme_options:
+      navbar_align: "content"
+
+      # Top navbar links (mirrors the old site’s cross-network navigation)
+      external_links:
+        - name: "Home"
+          url: "https://scientific-python.org/"
+        - name: "Blog"
+          url: "https://blog.scientific-python.org"
+        - name: "Learn"
+          url: "https://learn.scientific-python.org/"
+        - name: "Tools"
+          url: "https://tools.scientific-python.org"
+
+      # Social icons (footer/header icons)
+      icon_links:
+        - name: "GitHub"
+          url: "https://github.com/scientific-python/"
+          icon: "fab fa-github"
+        - name: "YouTube"
+          url: "https://www.youtube.com/c/ScientificPython-org"
+          icon: "fab fa-youtube"
+        - name: "Mastodon"
+          url: "https://fosstodon.org/@scientific_python"
+          icon: "fab fa-mastodon"
+        - name: "Discourse"
+          url: "https://discuss.scientific-python.org"
+          icon: "fas fa-comments"
+        - name: "Discord"
+          url: "https://discord.com/invite/vur45CbwMz"
+          icon: "fab fa-discord"
+
+      # Reduce “book-like” chrome to feel more like a website
+      show_nav_level: 2
+      navigation_with_keys: false
+    # Don't even look at generated content
+    exclude_patterns:
+      - "content/_build/**"
+      - "public/**"
+      - ".github/**"
+      - "external-content/**"
+      - "**/.ipynb_checkpoints"
+      - "**/.DS_Store"
