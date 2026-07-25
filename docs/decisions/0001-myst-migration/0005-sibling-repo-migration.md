@@ -1,7 +1,7 @@
-# ADR 0006 — Sibling SP repos migrate independently
+# ADR 0005 — Sibling SP repos migrate independently
 
 Date: 2026-05-11
-Status: Proposed
+Status: Accepted
 Branch: lb/myst-migration
 
 ## Context
@@ -9,12 +9,10 @@ Branch: lb/myst-migration
 The Scientific Python ecosystem has four Hugo-based sites sharing the same
 theme submodule:
 
-| Repo                                            | Domain                                      |
-| ----------------------------------------------- | ------------------------------------------- |
-| `scientific-python/learn.scientific-python.org` | learn.scientific-python.org ← **this repo** |
-| `scientific-python/scientific-python.org`       | scientific-python.org                       |
-| `scientific-python/blog.scientific-python.org`  | blog.scientific-python.org                  |
-| `scientific-python/tools.scientific-python.org` | tools.scientific-python.org                 |
+- learn.scientific-python.org
+- scientific-python.org
+- blog.scientific-python.org
+- tools.scientific-python.org
 
 Cross-site nav links are plain absolute URLs (not build-time references).
 There is no shared build pipeline coupling the repos.
@@ -23,7 +21,7 @@ There is no shared build pipeline coupling the repos.
 ([#81](https://github.com/scientific-python/tools.scientific-python.org/pull/81),
 brianhawthorne, opened October 2025, stale as of May 2026). It demonstrates
 a working shortcode conversion and a footer implementation using
-`site.parts.footer:` + custom CSS (see ADR 0005 option 3).
+`site.parts.footer:` + custom CSS.
 
 ## Decision
 
@@ -31,14 +29,13 @@ a working shortcode conversion and a footer implementation using
 PR merges, each linking to this PR as a worked example. Sibling repos adopt
 MyST on their own schedule.
 
-## Options considered
+## Other options considered
 
-1. **Migrate all four in lock-step** — synchronizes visual consistency; blocks
-   `learn` on the slowest-moving repo.
-2. **`learn` first; siblings when ready** — proves the pattern; doesn't block
-   SciPy 2026 deadline.
-3. **Wait for MyST theme parity** — defers everything until ADR 0005 follow-up
-   is resolved; not necessary since content parity is achievable now.
+- **Migrate all four in lock-step** — synchronizes visual consistency; blocks
+  `learn` on the slowest-moving repo.
+- **Wait for MyST theme parity** — defers everything until full footer parity
+  lands in the shared theme (ADR 0007); not necessary since content parity is
+  achievable now.
 
 ## Consequences
 

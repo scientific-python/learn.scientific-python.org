@@ -19,4 +19,4 @@ Statuses: `Proposed → Accepted → Deprecated / Superseded by NNNN`
 
 | #                            | Title                           | Status   |
 | ---------------------------- | ------------------------------- | -------- |
-| [0001](0001-myst-migration/) | MyST-MD migration (7 decisions) | Proposed |
+| [0001](0001-myst-migration/) | MyST-MD migration (8 decisions) | Accepted |

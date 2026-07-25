@@ -1,7 +1,7 @@
 # ADR 0003 — Remove scientific-python-hugo-theme submodule
 
 Date: 2026-05-11
-Status: Proposed
+Status: Accepted
 Branch: lb/myst-migration
 
 ## Context
@@ -17,7 +17,7 @@ submodule has no consumer here.
 
 ## Decision
 
-Remove the submodule from this repo in Phase 7 of the migration.
+Remove the submodule from this repo.
 
 ```bash
 git submodule deinit -f themes/scientific-python-hugo-theme
@@ -25,12 +25,11 @@ git rm themes/scientific-python-hugo-theme
 rm -rf .git/modules/themes/scientific-python-hugo-theme
 ```
 
-## Options considered
+## Other options considered
 
-1. **Remove in this PR** — clean cut; no dead code after Hugo is gone.
-2. **Keep until all four SP repos migrate** — delays cleanup by months or
-   quarters; leaves a submodule that nothing in this repo uses.
-3. **Vendor a snapshot** — no benefit; MyST doesn't use it.
+- **Keep until all four SP repos migrate** — delays cleanup by months or
+  quarters; leaves a submodule that nothing in this repo uses.
+- **Vendor a snapshot** — no benefit; MyST doesn't use it.
 
 ## Consequences
 
@@ -39,4 +38,4 @@ rm -rf .git/modules/themes/scientific-python-hugo-theme
   from their own `.gitmodules` and pin their own SHA
 - The upstream `scientific-python-hugo-theme` repo is not affected
 - A follow-up PR to the sibling repos removes their copies when they migrate
-  (see ADR 0006)
+  (see ADR 0005)

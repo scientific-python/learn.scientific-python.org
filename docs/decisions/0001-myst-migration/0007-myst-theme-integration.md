@@ -1,7 +1,7 @@
-# ADR 0009 — Integrate scientific-python-myst-theme via copier (committed files)
+# ADR 0007 — Integrate scientific-python-myst-theme via copier (committed files)
 
 Date: 2026-05-28
-Status: Proposed
+Status: Accepted
 Branch: lb/myst-migration
 
 ## Context
@@ -11,6 +11,11 @@ config, plugins (`team-grid.mjs`), assets (logo, favicon, CSS), and a footer
 template. It is distributed as a **copier template**, not a pip/npm package: the
 intended consumption pattern is for a site's `myst.yml` to `extends:` a
 `config/scientific-python.yml` shipped in the template.
+
+The theme's `footer.md` (consumed through MyST's `site.parts.footer:`
+mechanism) replaces Hugo's `params.footer` / `params.quicklinks` config —
+footer social icons and quicklinks columns — which MyST default templates
+cannot render. That Hugo config is not ported to `myst.yml`.
 
 The theme is brand-new (created 2026-05-18, 0 tagged releases), so upstream
 `main` HEAD is the only pinning target. We need a strategy for pulling theme
@@ -23,8 +28,7 @@ must land at predictable paths under `content/`.
 
 ## Decision
 
-Adopt **committed theme files, vendored selectively from a copier render** (a
-refinement of Option 2).
+Adopt **committed theme files, vendored selectively from a copier render**.
 
 Upstream is a _scaffold-a-new-site_ template: a full `copier copy` renders
 `index.md`, `myst.yml`, `about.md`, `news.md`, `Makefile`, `.gitignore`
@@ -54,8 +58,8 @@ Implementation (as performed):
 
 Update path: `copier update` cannot run cleanly (it conflicts on the diverged
 scaffold files), so updates are done by re-rendering to a temp dir and diffing
-the vendored files by hand. Revisit Option 3 once upstream separates "theme
-core" from "site scaffold" and cuts tagged releases.
+the vendored files by hand. Revisit the scheduled-action option once upstream
+separates "theme core" from "site scaffold" and cuts tagged releases.
 
 Known upstream gap: `config/scientific-python.yml` sets
 `primary_sidebar_footer: sidebar-footer.md`, which the template does not ship; the
@@ -68,20 +72,18 @@ own copy and its build is upstream's; the theme files here are consumed by
 `hide_toc: false` and ships no `style`, `plugins`, or `primary_sidebar_footer`),
 which is expected: each site tunes the shared base for itself.
 
-## Options considered
+## Other options considered
 
-1. **Git submodule** (mirror cookie) — introduces transient copied files, dual
-   source of truth, and a copy step on every `myst start`; a copier template is
-   not a runnable artifact, so a source submodule is a structural mismatch.
-2. **Copier copy, committed files** (chosen) — zero new build-time deps,
-   `myst start` works on fresh clone. Tradeoff: manual update cadence, drift risk.
-3. **Scheduled GitHub Action + copier update** — cron PR on diff; automatic but
-   adds a workflow and auto-PR conflict maintenance. Premature with no releases.
-4. **Pre-commit hook running copier update** — slows every commit, doesn't help
-   CI on fresh checkout, surprises contributors without copier. Rejected.
-5. **Rethink cookie integration** — cookie's independent release cadence and its
-   own upstream build keep submodule + Makefile right for it; this decision does
-   not alter ADR 0004.
+- **Git submodule** (mirror cookie) — introduces transient copied files, dual
+  source of truth, and a copy step on every `myst start`; a copier template is
+  not a runnable artifact, so a source submodule is a structural mismatch.
+- **Scheduled GitHub Action + copier update** — cron PR on diff; automatic but
+  adds a workflow and auto-PR conflict maintenance. Premature with no releases.
+- **Pre-commit hook running copier update** — slows every commit, doesn't help
+  CI on fresh checkout, surprises contributors without copier. Rejected.
+- **Rethink cookie integration** — cookie's independent release cadence and its
+  own upstream build keep submodule + Makefile right for it; this decision does
+  not alter ADR 0004.
 
 ## Consequences
 
@@ -90,5 +92,9 @@ which is expected: each site tunes the shared base for itself.
 clone`. Fresh clone `git clone && cd content && myst start` needs no setup.
 - `pixi.toml` `build`/`serve` tasks (local-only, git-excluded) were fixed to run
   with `cwd = content`.
+- Footer parity with the Hugo site (social icons + quicklinks columns) is
+  being completed upstream in
+  [scientific-python-myst-theme#7](https://github.com/scientific-python/scientific-python-myst-theme/pull/7)
+  and arrives here by re-vendoring the theme files
 - Manual updates risk upstream drift; pin `.copier-answers.yml` to the first
-  tagged release when available, and revisit Option 3 then.
+  tagged release when available, and revisit the scheduled-action option then.

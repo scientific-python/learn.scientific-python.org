@@ -1,7 +1,7 @@
 # ADR 0004 — Consume the cookie MyST build
 
 Date: 2026-05-11
-Status: Proposed
+Status: Accepted
 Branch: lb/myst-migration
 
 ## Context
@@ -29,21 +29,18 @@ How `learn` invokes cookie's build — which `mystmd` version, installed how —
 a separate concern, deliberately out of scope here so that this decision stays
 stable if the build tooling changes.
 
-## Options considered
+## Other options considered
 
-1. **Consume cookie's MyST build** — chosen. Cookie owns its build; `learn`
-   consumes the output. No duplicated build logic, no fork, and cookie's
-   independent release cadence is preserved.
-2. **Vendor cookie's content into `learn`** — would collapse the two sites into
-   a single build, removing the submodule and the two-step overlay. Discards
-   cookie's independent release cadence and its own contributor base, and makes
-   `learn` responsible for content it does not own. Rejected.
-3. **Reimplement cookie's build inside `learn`** — drive `mystmd` against
-   cookie's sources directly rather than calling its build script. Duplicates
-   logic cookie already maintains and silently drifts whenever cookie changes
-   its build. Rejected.
-4. **Drop cookie** — would break the `/development/` path; not acceptable
-   without a replacement.
+- **Vendor cookie's content into `learn`** — would collapse the two sites into
+  a single build, removing the submodule and the two-step overlay. Discards
+  cookie's independent release cadence and its own contributor base, and makes
+  `learn` responsible for content it does not own. Rejected.
+- **Reimplement cookie's build inside `learn`** — drive `mystmd` against
+  cookie's sources directly rather than calling its build script. Duplicates
+  logic cookie already maintains and silently drifts whenever cookie changes
+  its build. Rejected.
+- **Drop cookie** — would break the `/development/` path; not acceptable
+  without a replacement.
 
 ## Consequences
 

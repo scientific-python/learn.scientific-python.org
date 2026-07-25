@@ -5,7 +5,6 @@
 > Branch: lb/myst-migration
 > Issue: https://github.com/scientific-python/scientific-python.org/issues/846
 > Deadline: SciPy 2026 — 2026-07-13 (Minneapolis)
-> Plan: [PLAN.md](PLAN.md)
 
 ---
 
@@ -39,8 +38,8 @@ Starting state on branch `lb/myst-migration` (clean branch off updated main):
 - `content/_index.md` and 5 subdirectory index files use Hugo naming
   convention (`_index.md`)
 - No `myst.yml` exists; Phase 1 creates it new at the repo root
-- `docs/decisions/0001-myst-migration/` — ADR set committed; all seven ADRs
-  `Status: Proposed`, pending maintainer review
+- `docs/decisions/0001-myst-migration/` — ADR set committed; all eight ADRs
+  `Status: Accepted`
 
 ### Hugo artifacts to remove (after MyST is working)
 
@@ -82,12 +81,13 @@ in `netlify.toml`. Netlify also handles PR preview deploys. GitHub Actions runs
 Target: update `netlify.toml` to remove the Hugo and Dart Sass toolchain
 setup and add `pip install mystmd`; the build command (`make html-all`),
 publish directory, and `netlify-plugin-checklinks` are otherwise unchanged.
-See ADR 0007.
+See ADR 0006.
 
 ### Footer / quicklinks
 
 `config.yaml` defines footer social icons and quicklinks columns. MyST has no
-built-in equivalent. See ADR 0005 for options considered and proposed decision.
+built-in equivalent; the footer comes from the shared
+`scientific-python-myst-theme` (see ADR 0007).
 
 ---
 
@@ -99,8 +99,6 @@ Each logical change must be a separate, self-contained commit with a clear
 message explaining _why_ not just _what_. The PR must be readable as a
 narrative: "here is what we changed, here is why each step was necessary."
 
-See [PLAN.md](PLAN.md) for the commit-by-commit sequence.
-
 ### R2 — Decision log
 
 The ADR set in `docs/decisions/0001-myst-migration/` documents each
@@ -111,9 +109,9 @@ significant decision. ADRs are currently `Status: Proposed` and become
 - How shortcode mapping was chosen — ADR 0002
 - What happens to the Hugo theme submodule (removal timeline) — ADR 0003
 - How the cookie external content is built and consumed — ADR 0004
-- Footer/quicklinks approach — ADR 0005
-- Whether and when other SP repos migrate — ADR 0006
-- Deploy strategy: update Netlify for MyST, gh-pages as future option — ADR 0007
+- Whether and when other SP repos migrate — ADR 0005
+- Deploy strategy: update Netlify for MyST, gh-pages as future option — ADR 0006
+- Shared theme integration (styling, footer/quicklinks) — ADR 0007
 
 ### R3 — No regressions in rendered content
 
