@@ -1,0 +1,6 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: e390239
+_src_path: gh:scientific-python/scientific-python-myst-theme
+favicon: https://raw.githubusercontent.com/scientific-python/scientific-python.org/main/static/favicon.ico
+project_name: Learn Scientific Python
+project_url: learn.scientific-python.org
