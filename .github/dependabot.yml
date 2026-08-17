@@ -4,8 +4,15 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      actions:
+        patterns:
+          - "*"
+
   - package-ecosystem: "gitsubmodule"
     directory: "/"
+    cooldown:
+      default-days: 0
     allow:
       - dependency-name: "external-content/cookie"
     schedule:
