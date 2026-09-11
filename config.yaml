@@ -11,7 +11,7 @@ markup:
       unsafe: true
     renderHooks:
       link:
-        enableDefault: true
+        useEmbedded: fallback
 
 params:
   description: "Documentation for the Scientific Python community."
