@@ -17,6 +17,9 @@ params:
   description: "Documentation for the Scientific Python community."
   images:
     - /images/logo.svg
+  fonts:
+    - name: "Lato"
+      weights: [400, 700]
   navbarlogo:
     image: logo.svg
     text: Learn Scientific Python
