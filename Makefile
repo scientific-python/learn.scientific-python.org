@@ -8,7 +8,7 @@ help:   ## show this help
 	@grep -h "##" $(MAKEFILE_LIST) | grep -v grep | sed -e 's/\(.*\):.*##\(.*\)/    \1: \2/'
 
 prepare:
-	git submodule update --init
+	git submodule update --init --recursive
 
 cookie:
 	(cd external-content/cookie/docs && \
