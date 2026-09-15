@@ -1,7 +1,6 @@
 version: 1
 # Inherit shared Scientific Python theme (template, footer, plugins, CSS).
-# Vendored from scientific-python/scientific-python-myst-theme via copier;
-# see docs/decisions/0001-myst-migration/0007-myst-theme-integration.md.
+# Vendored from scientific-python/scientific-python-myst-theme via copier.
 extends: config/scientific-python.yml
 
 project:

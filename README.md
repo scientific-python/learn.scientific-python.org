@@ -34,10 +34,3 @@ built with [MyST-MD](https://mystmd.org/) (the `mystmd` CLI).
 serve `content/` only — the cookie overlay is **not** visible there. To preview
 the full site, including `/development/`, use `make build-serve`. It is a static
 build (no live reload); rerun it after edits.
-
-## Decisions
-
-Architecture decisions are recorded in
-[`docs/decisions/`](docs/decisions/). See
-[`0001-myst-migration/`](docs/decisions/0001-myst-migration/) for the
-Hugo → MyST migration.
