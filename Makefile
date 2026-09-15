@@ -20,14 +20,14 @@ external: cookie
 
 html: ## Build learn site (without external content) in `./public`
 html: prepare
-	hugo
+	jupyter-book build . --path-output public
 
 html-all: ## Buildlearn site (with external content) in `./public`
 html-all: html external
 
 serve: ## Serve site, typically on http://localhost:1313
 serve: prepare
-	@hugo --printI18nWarnings server
+	python -m http.server --directory public/_build/html 1313
 
 clean: ## Remove built files
 clean:
