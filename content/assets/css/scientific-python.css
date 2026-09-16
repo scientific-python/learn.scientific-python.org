@@ -73,9 +73,15 @@ main {
     & a {
       color: white;
       text-decoration-color: white;
-      inline-size: min-content;
       display: inline-block;
-      text-wrap: nowrap;
+      white-space: nowrap;
+
+      /* MyST renders external links as
+       * <a class="whitespace-nowrap"><span class="link-text whitespace-normal">.
+       * Override the span so multi-word labels stay on one line. */
+      & .link-text {
+        white-space: nowrap;
+      }
     }
   }
 
