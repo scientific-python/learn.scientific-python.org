@@ -1,4 +1,4 @@
-.PHONY: help prepare cookie external html serve clean
+.PHONY: help prepare cookie external html serve build-serve clean
 .DEFAULT_GOAL := help
 
 # Add help text after each target name starting with '\#\#'
@@ -18,17 +18,23 @@ cookie:
 
 external: cookie
 
-html: ## Build learn site (without external content) in `./public`
+html: ## Build learn site in `./content/_build/html`
 html: prepare
-	hugo
+	(cd content && myst build --html)
 
-html-all: ## Buildlearn site (with external content) in `./public`
-html-all: html external
+html-all: ## Build learn site with external content in `./public`
+html-all: html
+	mkdir -p public && cp -r content/_build/html/. public/
+	$(MAKE) external
 
-serve: ## Serve site, typically on http://localhost:1313
+serve: ## Serve site, typically on http://localhost:3000
 serve: prepare
-	@hugo --printI18nWarnings server
+	(cd content && myst start)
+
+build-serve: ## Build full site (learn + cookie) and serve `./public` at http://localhost:3000
+build-serve: html-all
+	python3 scripts/serve.py 3000 public
 
 clean: ## Remove built files
 clean:
-	rm -rf public
+	rm -rf content/_build public

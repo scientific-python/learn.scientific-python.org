@@ -2,9 +2,9 @@
 title: "Managing conflict"
 ---
 
-{{< admonition warning >}}
+:::{warning}
 This is a draft document.
-{{< /admonition >}}
+:::
 
 ### Code of Conduct
 
